@@ -4,10 +4,12 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-07-15",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
-  "routes": [
-    { "pattern": "martinferfers.de", "custom_domain": true },
-    { "pattern": "www.martinferfers.de", "custom_domain": true }
-  ],
+  // Custom domains are added once martinferfers.de is active on Cloudflare:
+  // "routes": [
+  //   { "pattern": "martinferfers.de", "custom_domain": true },
+  //   { "pattern": "www.martinferfers.de", "custom_domain": true }
+  // ],
+  "workers_dev": true,
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
@@ -16,7 +18,7 @@
     {
       "binding": "D1",
       "database_name": "martinferfers-cms",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "27e8453f-dde6-426a-9b75-208f5f987847",
       "remote": true
     }
   ],
