@@ -1,0 +1,774 @@
+{
+ "root": {
+  "type": "root",
+  "format": "",
+  "indent": 0,
+  "version": 1,
+  "direction": "ltr",
+  "children": [
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "7e7a1bdf39eb654d5add34ed",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/winter-is-coming-hero.jpg",
+     "alt": "Winter is coming – im langen Puffer-Mantel",
+     "caption": "",
+     "format": "hero"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Wer mich kennt, weiß, dass selbst die High-End-KI-Modelle es schwer haben, mit einer „Ferferschen Recherche“ mitzuhalten. Da wird auch gerne mal über den Zeitraum einer Woche jede Freizeit-Minute in das Verständnis der Faserfeinheit von Naturhaardecken gesteckt… Leider wird mein Recherche-Aufwand immer wieder mit aus meiner Sicht perfekten Resultaten belohnt, so dass es weiterhin keinen Grund gibt, meine Zeit nicht so zu vergeuden. Aber zumindest Euch möchte ich diese Zeit ersparen.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Ein Themenkomplex, den Ihr nun als gelöst ansehen könnt: Warm im Winter bleiben. Spoiler: ",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Wolle is the answer!",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Hier meine größten Rechercheerfolge bzw. Produktempfehlungen:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Uniqlo Kaschmir-Mütze",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "5c5527010c7600aea8912991",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486755/item/goods_03_486755_3x4.jpg",
+     "alt": "Uniqlo Kaschmir-Mütze in Grau",
+     "caption": "Bild: Uniqlo",
+     "format": "square"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Mit 39,90 € fast ungehörig günstig für das, was man bekommt. Mein Wunsch, Trinkgeld zu geben, wurde abgelehnt. Zurecht in den Bewertungen mit überbordendem Lob bedacht. Dünn, anschmiegsam, aber stets kuschelig warm. Farbliche Vielfalt für sämtliche Geschlechter vorhanden.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Bewertung:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 4,8 von 5 (24 Bewertungen)",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Preis:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 39,90 €",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": "Zur Kaschmir-Mütze bei Uniqlo",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "link",
+      "version": 3,
+      "fields": {
+       "linkType": "custom",
+       "newTab": false,
+       "url": "https://www.uniqlo.com/de/de/products/E486755-000/"
+      },
+      "id": "6aedda03e5b61700b567fc61"
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 1,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Rains Longer Puffer Mantel",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "9100aec9f3c6d996e89797b6",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "https://rains.com/cdn/shop/files/rains_alta_longer_puffer_jacket_w3t4_green_thermal_women_1_08628786-25c1-40ca-8059-ed2601dd0b47.jpg?width=1200",
+     "alt": "Rains Alta Longer Puffer Jacket in Grün",
+     "caption": "Bild: Rains",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Kalt allein reicht dem deutschen Herbst und Winter ja oft nicht. Gern wird sprühender, nieselnder, schüttender Regen zusätzlich geboten. Da kann man dann noch so daunig eingeflauscht sein! Enter: der Rains Mantel. Fluffig, plüschig, warm, als würde man in einem Schlafsack oder in eine Daunendecke gewickelt durch die Welt flanieren (Sidenote: ist aber gar keine Daune). Der große und zentrale Bonus: on top noch wasserdicht. Toll verarbeitet.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Bewertung:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 4,8 von 5 (38 Bewertungen)",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Preis:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 399 €",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": "Zum Puffer-Mantel bei Rains",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "link",
+      "version": 3,
+      "fields": {
+       "linkType": "custom",
+       "newTab": false,
+       "url": "https://de.rains.com/collections/mens-winter-jackets/products/long-puffer-jacket-male"
+      },
+      "id": "6aedda03e5b61700b567fc62"
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 1,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Alpaka-Decke",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "4262a96471a76cc4d87eb0d0",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "https://www.abolengo-alpaka.de/media/19/12/cd/1715865857/alpaka-heimdecke-hellgrau-sofa-IMG_9607%20%281%29.jpg",
+     "alt": "Abolengo Alpaka-Heimdecke in Hellgrau",
+     "caption": "Bild: Abolengo",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Mein Vater hatte auch noch so eine Echthaar-Matte. Kamel. Fast zu warm. Und definitiv zu kratzig. Also begann meine Suche nach DER Alpaka-Decke. Ich wurde fündig: So weich, als würde man mit einem Alpaka kuscheln. Und perfekte Dicke, so dass man sie das ganze Jahr über nutzen kann. Ich würde definitiv die große Variante wählen. Selbst große Menschen bekommen sämtliche eigenen Körperteile und noch einen Lebenspartner drunter.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Bewertung:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 5,0 von 5 (55 Bewertungen)",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Preis:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 414 €",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": "Zur Alpaka-Decke bei Abolengo",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "link",
+      "version": 3,
+      "fields": {
+       "linkType": "custom",
+       "newTab": false,
+       "url": "https://www.abolengo-alpaka.de/Alpaka-Heimdecke-Sofadecke/SKU-329"
+      },
+      "id": "6aedda03e5b61700b567fc63"
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 1,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Hausschuhe",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "0ea9d673f1aa2776d1582fcc",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "https://www.birkenstock.com/on/demandware.static/-/Sites-master-catalog-emea/default/dw70a95965/752663/752663.jpg",
+     "alt": "Birkenstock Arizona Lammfell Veloursleder in Schwarz",
+     "caption": "Bild: Birkenstock",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Hier ist die Kernerkenntnis eher die Anwendung als nur allein dieses Produkt. Zentral ist, sofern man keine Fußbodenheizung hat, zu Hause wirklich jeden unbeschuhten Kontakt mit dem Boden zu vermeiden. Jeden! Also beim Hose an-/ausziehen hinsetzen und Füße hoch. Das war für mich der Gamechanger gegen kalte Füße. Dabei hilft ein Hausschuh, in den ich schnell rein- und rausschlüpfen kann.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Ich finde, die Modelle mit Riemen geben deutlich mehr Halt als die geschlossenen. Beim Treppe-rauf-und-runter-Jagen, weil irgendwo im Haus gerade ein Kind nach seinem Erzeuger ruft, hilft das.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Bewertung:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 4,9 von 5 (151 Bewertungen)",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Preis:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " 165 €",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "type": "linebreak",
+      "version": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": "Zum Arizona Lammfell bei Birkenstock",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "link",
+      "version": 3,
+      "fields": {
+       "linkType": "custom",
+       "newTab": false,
+       "url": "https://www.birkenstock.com/de/arizona-shearling-suede-leather/arizona-shearling-suedeleather-0-eva-u_49.html"
+      },
+      "id": "6aedda03e5b61700b567fc64"
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 1,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Honorable Mentions",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "1250065e811d2bb0e23f0ebd",
+     "blockName": "",
+     "blockType": "productGroup",
+     "items": [
+      {
+       "id": "036768960cd932f98303db38",
+       "name": "Handschuhe mit Fingern",
+       "image": "https://www.hestragloves.de/cdn/shop/files/23570-2801.png",
+       "imageAlt": "Hestra Handschuh John in Navy",
+       "imageCredit": "Bild: Hestra",
+       "text": "",
+       "price": "120 €",
+       "url": "https://www.hestragloves.de/products/john-navy",
+       "linkLabel": "Zum Handschuh „John“ bei Hestra"
+      },
+      {
+       "id": "c91264d1a3eab67523c59522",
+       "name": "Handschuhe Fäustlinge",
+       "image": "https://cdn.avocadostore.de/images/1662076/large.jpg",
+       "imageAlt": "Apu Kuntur Alpaka-Fausthandschuhe",
+       "imageCredit": "Bild: Avocadostore / Apu Kuntur",
+       "text": "",
+       "price": "45 €",
+       "url": "https://www.avocadostore.de/products/166295-100-prozent-alpaka-fausthandschuhe-aus-peru-gefuettert-apu-kuntur",
+       "linkLabel": "Zu den Alpaka-Fäustlingen"
+      },
+      {
+       "id": "9b50f01f9ef72b08c700ba8f",
+       "name": "Bettdecke",
+       "image": "https://www.deutsche-premiumbettwaren.de/media/fa/57/72/1793230953/H.jpg",
+       "imageAlt": "Gänsedaunendecke Nesrin",
+       "imageCredit": "Bild: Deutsche Premiumbettwaren",
+       "text": "Generell würde ich eine Daunendecke empfehlen. Und sofern man über 1,85 m ist, definitiv auf eine Überlänge gehen! Ich habe die hier in 155 x 220. Über Corporate Benefits gibt es hier gute Rabatte.",
+       "price": "",
+       "url": "https://www.deutsche-premiumbettwaren.de/dpb-gaensedaunendecke-nesrin/eg-576170",
+       "linkLabel": "Zur Gänsedaunendecke „Nesrin“"
+      }
+     ]
+    }
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "2416de60c5a8e0c1c2be3953",
+     "blockName": "",
+     "blockType": "productGroup",
+     "items": [
+      {
+       "id": "ee2e73e8b94dc02b70a97543",
+       "name": "Schuhe für den Alltag",
+       "image": "https://www.panamajack.de/cdn/shop/files/GLASGOW-IGLOO-C1-NAPA-GRASS-BROWN_G_001_1200x1200.jpg",
+       "imageAlt": "Panama Jack Glasgow Igloo C1",
+       "imageCredit": "Bild: Panama Jack",
+       "text": "Wenn es nicht gänzlich obszön kalt draußen ist und man eigentlich nur den Arbeitsweg vor sich hat, reichen die hier.",
+       "price": "209 €",
+       "url": "https://www.panamajack.de/products/glasgow-igloo-c1",
+       "linkLabel": "Zum Glasgow Igloo C1"
+      },
+      {
+       "id": "5903a7e6d88d6d839d7ad83b",
+       "name": "Schuhe für richtige Kälte",
+       "image": "https://www.panamajack.de/cdn/shop/files/P03-AVIATOR-IGLOO-C13-NAPA-GRASS-CHESTNUT_G_001_1200x1200.jpg",
+       "imageAlt": "Panama Jack P03 Aviator Igloo C13",
+       "imageCredit": "Bild: Panama Jack",
+       "text": "Wenn es auf den Weihnachtsmarkt geht oder man generell bei größerer Kälte länger draußen ist, darf die Optik hintanstehen. Dickere Sohle, mehr Schuh drumherum.",
+       "price": "229 €",
+       "url": "https://www.panamajack.de/products/p03-aviator-igloo-c13",
+       "linkLabel": "Zum P03 Aviator Igloo C13"
+      },
+      {
+       "id": "496ada9923400bb048e65f84",
+       "name": "Dicker Pullover",
+       "image": "https://woo.daniels-shop.de/wp-content/uploads/2026/09/2025-06-11-jonathan-692-t-na.jpg",
+       "imageAlt": "Pullover von Daniels in Hellgrau meliert",
+       "imageCredit": "Bild: Daniels",
+       "text": "Dicker muss ein Pullover nicht werden. Maximale Flauschigkeit und perfekt für kalte Tage. Gerade mit fast 50 % Rabatt zu haben!",
+       "price": "89,95 € statt 169,95 €",
+       "url": "https://daniels-shop.de/produkt/pullover-von-daniels-58/",
+       "linkLabel": "Zum Pullover bei Daniels"
+      }
+     ]
+    }
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "89fe71a0d6d837aefcb2ec5b",
+     "blockName": "",
+     "blockType": "productGroup",
+     "items": [
+      {
+       "id": "ef003ce960d060b7acfefd66",
+       "name": "Leichter Wollpullover",
+       "image": "",
+       "imageAlt": "",
+       "imageCredit": "",
+       "text": "Ich habe einen dünneren Merinowollpullover von Profuomo. Genau so gibt es den anscheinend nicht mehr. Angenehm weich und ideal, „wenn’s langsam kühler wird“.",
+       "price": "",
+       "url": "https://profuomo.com/de-de/collections/merinowolle-kollektion",
+       "linkLabel": "Zur Merinowolle-Kollektion bei Profuomo"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "martinferfers",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-07-15",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "routes": [
+    { "pattern": "martinferfers.de", "custom_domain": true },
+    { "pattern": "www.martinferfers.de", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "D1",
+      "database_name": "martinferfers-cms",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "remote": true
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      "bucket_name": "martinferfers-media"
+    }
+  ],
+  // Contact form e-mails via Cloudflare Email Service (domain must be onboarded under Email Service → Email Sending)
+  "send_email": [{ "name": "EMAIL" }],
+  "vars": {
+    "NEXT_PUBLIC_SITE_URL": "https://martinferfers.de",
+    "CONTACT_TO": "mf@spark-innovation.de",
+    "CONTACT_FROM": "website@spark-innovation.de"
+  },
+  "observability": { "enabled": true }
+}

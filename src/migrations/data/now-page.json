@@ -1,0 +1,775 @@
+{
+ "title": "What I´m doing now",
+ "content": {
+  "root": {
+   "children": [
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I am freshly married and live in Düsseldorf. I will try to spend more time in Q1 2022 in my co-owned flat on Ibiza",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I try to focus my time on the following four more work related areas:",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "1) Researching and investing in Crypto tokens & funds, with plans of starting an own Crypto venture in 2022",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "2) Finding an Investor/buyer for one of my companies",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "3) Making first fund & real estate investments with our newly founded family office",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "4) \"Archiving\" several smaller side-projects to free some \"background brain capacity\" (think \"closing tabs in Chrome\")",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "More personal things include:",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Getting into a more positive flow again (sport, medition, nutrition, mindset), after a rather rocky 2021",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Starting a family",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Evaluating options for moving into a house, to give future tiny Martins more space.",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Book a personal retreat for early 2022",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Last update ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 1,
+       "mode": "normal",
+       "style": "",
+       "text": "December 2021",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "This page is based on yet another great idea by ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "Derek Sivers",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "link",
+       "version": 3,
+       "fields": {
+        "linkType": "custom",
+        "newTab": false,
+        "url": "https://sive.rs/nowff"
+       },
+       "id": "6ae49c6242edd000ee0f9566"
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": ".",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Archive",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": ".",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Status: ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 1,
+       "mode": "normal",
+       "style": "",
+       "text": "October 2016",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I´m in Düsseldorf, though will try to spend some time during Winter in my co-owned flat on Ibiza",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I try to focus my time on the following four more work related areas:",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "1) Helping ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "a breakthrough remedy against hair loss",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "link",
+       "version": 3,
+       "fields": {
+        "linkType": "custom",
+        "newTab": false,
+        "url": "https://www.thiocyn.com"
+       },
+       "id": "6ae49c6242edd000ee0f9567"
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": " get off the ground",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "2) Finding a publisher for a ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "children book",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "link",
+       "version": 3,
+       "fields": {
+        "linkType": "custom",
+        "newTab": false,
+        "url": "http://www.siggi-sternenschlaefer.de"
+       },
+       "id": "6ae49c6242edd000ee0f9568"
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": " I wrote, illustrated and self-published",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "3) Evaluating several business opportunities as an Business Angel/Advisor",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "4) Planning on the setup of my \"dream future\"",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "More personal things include:",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Getting rid of my injuries (shoulder still not 100%)",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Working on myself to become a \"more stable, happy me\"",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Meet more interesting people",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Status: ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 1,
+       "mode": "normal",
+       "style": "",
+       "text": "December 2015",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I´m in Düsseldorf, though think about moving. Cologne, Berlin or (part-time) abroad.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I try to focus my time on the following five more work related areas:",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "1) Being Interim-CEO of Noreiz",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "2) Finding a publisher for a ",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "children book",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "link",
+       "version": 3,
+       "fields": {
+        "linkType": "custom",
+        "newTab": false,
+        "url": "http://www.siggi-sternenschlaefer.de"
+       },
+       "id": "6ae49c6242edd000ee0f9569"
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": " I wrote, illustrated and self-published",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "3) Allocating my Grünspar exit proceeds",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "4) Buying my first piece of own real-estate",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "5) Planning on the setup of my \"dream future\"",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "More personal things include:",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Keep doing Crossfit",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Do more weekend trips",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Meet more interesting people",
+       "type": "text",
+       "version": 1
+      },
+      {
+       "type": "linebreak",
+       "version": 1
+      },
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "- Planning travels for 2016 (Bali surfing here I come!)",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    }
+   ],
+   "direction": null,
+   "format": "",
+   "indent": 0,
+   "type": "root",
+   "version": 1
+  }
+ }
+}
