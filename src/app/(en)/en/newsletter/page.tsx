@@ -4,7 +4,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata = {
   title: 'Inspiration Newsletter',
-  alternates: { languages: { de: '/newsletter', en: '/en/newsletter' } },
+  alternates: { canonical: '/en/newsletter', languages: { de: '/newsletter', en: '/en/newsletter' } },
 }
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ confirmed?: string }> }) {

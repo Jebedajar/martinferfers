@@ -18,6 +18,13 @@ const nextConfig: NextConfig = {
     return [
       { source: '/info', destination: '/', permanent: true },
       { source: '/home', destination: '/', permanent: true },
+      // One address for search engines: www → martinferfers.de
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.martinferfers.de' }],
+        destination: 'https://martinferfers.de/:path*',
+        statusCode: 301,
+      },
       // "Sparks" is now called "Projects"
       { source: '/sparks', destination: '/projects', permanent: true },
       { source: '/en/sparks', destination: '/en/projects', permanent: true },
