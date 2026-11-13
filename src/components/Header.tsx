@@ -16,8 +16,11 @@ export function Header() {
     <header className="site-header" id="top">
       <div className="wrap header-inner">
         <Link href={localize('/', lang)} className="logo" aria-label={ui.home}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={SITE.logo.src} width={SITE.logo.width} height={SITE.logo.height} alt={SITE.logo.alt} />
+          <picture>
+            <source srcSet={SITE.logo.srcDark} media="(prefers-color-scheme: dark)" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={SITE.logo.src} width={SITE.logo.width} height={SITE.logo.height} alt={SITE.logo.alt} />
+          </picture>
         </Link>
         <button className="nav-toggle" aria-expanded={open} aria-controls="main-nav" onClick={() => setOpen((v) => !v)}>
           {open ? ui.close : ui.menu}

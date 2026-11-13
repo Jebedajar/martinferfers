@@ -19,14 +19,20 @@ export function siteMetadata(lang: Lang): Metadata {
       siteName: SITE.name,
       type: 'website',
       locale: lang === 'de' ? 'de_DE' : 'en_US',
-      images: [{ url: SITE.logo.src, width: 435, height: 60 }],
+      images: [{ url: SITE.logo.src, width: SITE.logo.width, height: SITE.logo.height }],
     },
     twitter: { card: 'summary' },
     icons: { icon: '/favicon.png', apple: '/apple-touch-icon.png' },
   }
 }
 
-export const siteViewport: Viewport = { themeColor: '#0099ff' }
+export const siteViewport: Viewport = {
+  colorScheme: 'light dark',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#0b1622' },
+  ],
+}
 
 /** The <html> document shared by the German and the English root layout. */
 export function SiteShell({ lang, children }: { lang: Lang; children: React.ReactNode }) {

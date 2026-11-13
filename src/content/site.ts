@@ -34,7 +34,13 @@ export const SITE = {
     en: 'This is my mission: Bring ideas to life that make this world a better or at least more fun place to live in. – Martin Ferfers',
   } as L,
   origin: process.env.NEXT_PUBLIC_SITE_URL || 'https://martinferfers.de',
-  logo: { src: '/images/martin-ferfers-logo.gif', width: 325, height: 44, alt: 'Martin Ferfers' },
+  logo: {
+    src: '/images/martin-ferfers-logo.gif',
+    srcDark: '/images/martin-ferfers-logo-dark.gif', // used in dark mode
+    width: 325,
+    height: 44,
+    alt: 'Martin Ferfers',
+  },
   nav: [
     { label: { de: 'Über mich', en: 'About' }, href: '/about' },
     { label: { de: 'Newsletter', en: 'Newsletter' }, href: '/newsletter' },
