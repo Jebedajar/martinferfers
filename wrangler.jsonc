@@ -4,11 +4,10 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-07-15",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
-  // Custom domains are added once martinferfers.de is active on Cloudflare:
-  // "routes": [
-  //   { "pattern": "martinferfers.de", "custom_domain": true },
-  //   { "pattern": "www.martinferfers.de", "custom_domain": true }
-  // ],
+  "routes": [
+    { "pattern": "martinferfers.de", "custom_domain": true },
+    { "pattern": "www.martinferfers.de", "custom_domain": true }
+  ],
   "workers_dev": true,
   "assets": {
     "directory": ".open-next/assets",
