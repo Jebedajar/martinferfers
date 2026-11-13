@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
         source: '/:path*',
         has: [{ type: 'host', value: 'www.martinferfers.de' }],
         destination: 'https://martinferfers.de/:path*',
-        statusCode: 301,
+        permanent: true,
       },
       // "Sparks" is now called "Projects"
       { source: '/sparks', destination: '/projects', permanent: true },
