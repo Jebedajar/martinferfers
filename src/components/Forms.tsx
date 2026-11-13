@@ -36,7 +36,17 @@ function Status({ state }: { state: FormState }) {
  * double-opt-in mail and you can see in Kit which language a subscriber wants.
  * Without JavaScript the browser posts directly to Kit.
  */
-export function KitForm({ lang, compact = false, withName = false }: { lang: Lang; compact?: boolean; withName?: boolean }) {
+export function KitForm({
+  lang,
+  compact = false,
+  withName = false,
+  hideNote = false,
+}: {
+  lang: Lang
+  compact?: boolean
+  withName?: boolean
+  hideNote?: boolean
+}) {
   const ui = UI[lang].form
   const formId = KIT.forms[lang]
   const action = `https://app.kit.com/forms/${formId}/subscriptions`
@@ -72,15 +82,15 @@ export function KitForm({ lang, compact = false, withName = false }: { lang: Lan
           <input name="fields[first_name]" autoComplete="given-name" />
         </label>
       )}
-      <label className="field">
-        <span>{ui.email}</span>
-        <input name="email_address" type="email" required autoComplete="email" />
+      <label className="field field-bare">
+        <span className="visually-hidden">{ui.email}</span>
+        <input name="email_address" type="email" required autoComplete="email" placeholder={ui.emailPlaceholder} />
       </label>
       <button className="button" type="submit" disabled={state.pending}>
         {state.pending ? ui.subscribing : ui.subscribe}
       </button>
       <Status state={state} />
-      <p className="form-note">{ui.privacy}</p>
+      {!hideNote && <p className="form-note">{ui.note}</p>}
     </form>
   )
 }

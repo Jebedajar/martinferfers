@@ -96,10 +96,12 @@ export interface Config {
   globals: {
     'now-page': NowPage;
     'about-quote': AboutQuote;
+    'newsletter-page': NewsletterPage;
   };
   globalsSelect: {
     'now-page': NowPageSelect<false> | NowPageSelect<true>;
     'about-quote': AboutQuoteSelect<false> | AboutQuoteSelect<true>;
+    'newsletter-page': NewsletterPageSelect<false> | NewsletterPageSelect<true>;
   };
   locale: null;
   widgets: {
@@ -494,6 +496,78 @@ export interface AboutQuote {
   createdAt?: string | null;
 }
 /**
+ * Texte der Seite „Inspiration Newsletter“. Überschrift und Anmeldeformulare stehen fest auf der Seite; hier pflegst du den Text dazwischen und den Absatz über dich am Ende.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "newsletter-page".
+ */
+export interface NewsletterPage {
+  id: number;
+  contentDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  bioDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  contentEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  bioEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  _status?: ('draft' | 'published') | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "now-page_select".
  */
@@ -512,6 +586,20 @@ export interface NowPageSelect<T extends boolean = true> {
 export interface AboutQuoteSelect<T extends boolean = true> {
   quote?: T;
   author?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "newsletter-page_select".
+ */
+export interface NewsletterPageSelect<T extends boolean = true> {
+  contentDe?: T;
+  bioDe?: T;
+  contentEn?: T;
+  bioEn?: T;
+  _status?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;

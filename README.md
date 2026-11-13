@@ -35,7 +35,7 @@ Das Aussehen der Formulare kommt von der Website; das Design im Kit-Editor spiel
 
 | Pfad | Inhalt |
 | --- | --- |
-| `src/content/site.ts` | **Alle Texte der festen Seiten in DE und EN**, Menü, Kit-Form-IDs |
+| `src/content/site.ts` | **Texte der festen Seiten in DE und EN**, Menü, Footer-Links, Kit-Form-IDs |
 | `src/views/` | Seitenaufbau (eine Datei pro Seite, für beide Sprachen) |
 | `src/app/(de)/` und `src/app/(en)/en/` | Routen der beiden Sprachen (nur dünne Hüllen um `src/views`) |
 | `src/styles/site.css` | Gestaltung (Farben ganz oben als Variablen) |
@@ -84,6 +84,7 @@ Alternativ per GitHub Actions (`.github/workflows/deploy.yml`, manuell startbar)
 ## Im CMS arbeiten
 
 - **Blogbeitrag:** `/admin` → *Blogbeiträge* → Sprache wählen, optional Übersetzung verknüpfen → **Änderungen veröffentlichen**
+- **Newsletter-Seite:** unter *Inhalte → Newsletter-Seite*, je ein Reiter für Deutsch und Englisch (Text zwischen den Anmeldeformularen + Absatz über dich)
 - **/now-Seite:** unter *Inhalte → /now-Seite* (eine Fassung für beide Sprachen, derzeit Englisch)
 - **Texte der festen Seiten** stehen in `src/content/site.ts`. Ändern, committen, pushen
 

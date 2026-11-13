@@ -6,7 +6,7 @@ export function Banner({
 }: {
   image: string
   children: React.ReactNode
-  size?: 'large' | 'small'
+  size?: 'large' | 'small' | 'slim'
 }) {
   return (
     <section className={`banner banner-${size}`}>

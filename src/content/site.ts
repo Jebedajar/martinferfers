@@ -4,6 +4,23 @@
 // Original texts and images taken from www.spark-innovation.de.
 import type { L, Lang } from '@/lib/i18n'
 
+// encodeURIComponent leaves ( ) alone; they would break the [label](url) syntax
+const enc = (v: string) => encodeURIComponent(v).replace(/\(/g, '%28').replace(/\)/g, '%29')
+const auditMail = (subject: string, body: string) =>
+  `mailto:ai@spark-innovation.de?subject=${enc(subject)}&body=${enc(body)}`
+
+const AUDIT = {
+  de: auditMail(
+    'KI-Audit',
+    'Hallo, ich interessiere mich für ein KI-Audit für mich und mein Unternehmen.\n\n(Informationen für Sie als Unternehmer: Wir vereinbaren ein einstündiges Telefonat, in dem wir Ihr Unternehmen unter die Lupe nehmen und gemeinsam schauen, wo und wie KI Ihnen helfen könnte. Anschließend erhalten Sie innerhalb einer Woche einen fünfseitigen „Quick-Win“-Report sowie einen ausführlichen Leitfaden zur Umsetzung der Empfehlungen.)',
+  ),
+  en: auditMail(
+    'AI audit',
+    'Hi there, I am interested in an AI audit for me & my business.\n\n(Info for you as the business owner: We set up a 1-hour call and go through your business and where and how AI could help you. Within a week, you will then receive a 5-page quick-win report and an in-depth playbook on how to implement the recommendations.)',
+  ),
+} as L
+
+
 /** Kit (kit.com) forms – one per language, so you can tell in Kit which language a subscriber wants. */
 export const KIT = {
   forms: { de: '10184779', en: '10184776' } as L,
@@ -17,7 +34,7 @@ export const SITE = {
     en: 'This is my mission: Bring ideas to life that make this world a better or at least more fun place to live in. – Martin Ferfers',
   } as L,
   origin: process.env.NEXT_PUBLIC_SITE_URL || 'https://martinferfers.de',
-  logo: { src: '/images/spark-logo.gif', width: 435, height: 60, alt: 'Martin Ferfers – spark* ideas to rock this world' },
+  logo: { src: '/images/martin-ferfers-logo.gif', width: 325, height: 44, alt: 'Martin Ferfers' },
   nav: [
     { label: { de: 'Über mich', en: 'About' }, href: '/about' },
     { label: { de: 'Newsletter', en: 'Newsletter' }, href: '/newsletter' },
@@ -26,10 +43,34 @@ export const SITE = {
     { label: { de: 'Kontakt', en: 'Contact' }, href: '/contact' },
   ] as { label: L; href: string }[],
   footer: {
-    claim: { de: 'Lass uns diese Welt gemeinsam rocken!', en: 'Let´s rock this world together!' } as L,
+    // Same English text in both languages
+    mission: [
+      'This is my mission: Bring ideas to life that make this world a better or at least more fun place to live in.',
+      'I live to create, inspire & entertain.',
+      'Let´s rock this world together:',
+    ],
     cta: { de: 'Schreib mir →', en: 'Get in touch →' } as L,
-    line: 'Martin Ferfers . Spark Innovation / Spark Ventures',
+    copyright: '© Martin Ferfers',
     twitter: 'https://twitter.com/FerfersMartin',
+    columns: [
+      {
+        heading: { de: 'Projekte', en: 'Projects' } as L,
+        links: [
+          { label: { de: 'Kostenlose KI-Beratung', en: 'Free AI Consulting' } as L, href: AUDIT },
+          { label: { de: 'Wertstapel', en: 'Wertstapel' } as L, href: 'https://www.wertstapel.de' },
+          { label: { de: 'Siggi Sternenschläfer', en: 'Siggi Sternenschläfer' } as L, href: 'http://www.siggi-sternenschlaefer.de' },
+          { label: { de: 'Alle Projekte', en: 'All projects' } as L, href: '/projects' },
+        ],
+      },
+      {
+        heading: { de: 'Blogartikel', en: 'Blog Articles' } as L,
+        links: [
+          { label: { de: 'Komplettlösung Geldanlage', en: 'Komplettlösung Geldanlage' } as L, href: 'de:/blog/2023/7/13/komplettloesung-geldanlage' },
+          { label: { de: 'Peter Attias Buch Outlive', en: 'Peter Attias Buch Outlive' } as L, href: 'de:/blog/2023/8/16/peter-attias-buch-outlive-alle-tests-amp-blutmarker' },
+          { label: { de: 'Biggest weakness or biggest strength?', en: 'Biggest weakness or biggest strength?' } as L, href: 'en:/blog/weak-strength' },
+        ],
+      },
+    ],
   },
 }
 
@@ -58,6 +99,7 @@ export const UI = {
       name: 'Name',
       firstName: 'Vorname (optional)',
       email: 'E-Mail-Adresse',
+      emailPlaceholder: 'deine@email.de',
       message: 'Nachricht',
       send: 'Senden',
       sending: 'Wird gesendet …',
@@ -65,7 +107,7 @@ export const UI = {
       subscribing: 'Einen Moment …',
       subscribed: 'Fast geschafft! Bitte bestätige Deine Anmeldung über den Link in der E-Mail, die ich Dir gerade geschickt habe.',
       subscribeError: 'Das hat leider nicht geklappt. Bitte versuch es gleich noch einmal.',
-      privacy: 'Kein Spam, Abmeldung jederzeit mit einem Klick. Der Versand läuft über Kit (kit.com).',
+      note: 'Kostenlos, einmal im Monat, von einem Menschen aka mir geschrieben :)',
     },
   },
   en: {
@@ -91,6 +133,7 @@ export const UI = {
       name: 'Name',
       firstName: 'First name (optional)',
       email: 'Email Address',
+      emailPlaceholder: 'your@email.com',
       message: 'Message',
       send: 'Send',
       sending: 'Sending…',
@@ -98,35 +141,25 @@ export const UI = {
       subscribing: 'One moment…',
       subscribed: 'Almost there! Please confirm your subscription via the link in the email I just sent you.',
       subscribeError: 'That did not work. Please try again in a moment.',
-      privacy: 'No spam, unsubscribe anytime with one click. Emails are sent via Kit (kit.com).',
+      note: 'Free, once a month, written by a real person – aka me :)',
     },
   },
 } satisfies L<unknown>
 
 export type UIText = (typeof UI)['de']
 
-// encodeURIComponent leaves ( ) alone; they would break the [label](url) syntax
-const enc = (v: string) => encodeURIComponent(v).replace(/\(/g, '%28').replace(/\)/g, '%29')
-const auditMail = (subject: string, body: string) =>
-  `mailto:ai@spark-innovation.de?subject=${enc(subject)}&body=${enc(body)}`
-
 export const HOME: L<{
   hero: { lines: string[] }
-  blocks: { text: string; image?: { src: string; alt: string; href: string } }[]
-  list: { heading: string; subline: string; note: string }
+  blocks: { text: string; form?: boolean }[]
 }> = {
   de: {
     hero: { lines: ['Hi, ich bin Martin Ferfers.', 'Schön, dass Du da bist.'] },
     blocks: [
       {
-        text: `Ich habe [mehrere Internet-Start-ups gegründet](/projects) und bei unterschiedlichen Innovationsberatungen gearbeitet. Derzeit helfe ich Unternehmern, die Potenziale von KI besser zu nutzen. [An einem kostenlosen KI-Audit interessiert?](${auditMail(
-          'KI-Audit',
-          'Hallo, ich interessiere mich für ein KI-Audit für mich und mein Unternehmen.\n\n(Informationen für Sie als Unternehmer: Wir vereinbaren ein einstündiges Telefonat, in dem wir Ihr Unternehmen unter die Lupe nehmen und gemeinsam schauen, wo und wie KI Ihnen helfen könnte. Anschließend erhalten Sie innerhalb einer Woche einen fünfseitigen „Quick-Win“-Report sowie einen ausführlichen Leitfaden zur Umsetzung der Empfehlungen.)',
-        )})`,
+        text: `Ich habe [mehrere Internet-Start-ups gegründet](/projects) und bei unterschiedlichen Innovationsberatungen gearbeitet. Derzeit helfe ich Unternehmern, die Potenziale von KI besser zu nutzen. [An einem kostenlosen KI-Audit interessiert?](${AUDIT.de})`,
       },
       {
         text: 'Noch bevor meine zwei Kinder geboren wurden, habe ich ein Kinderbuch geschrieben, illustriert und veröffentlicht. [Träum schön, Siggi Sternenschläfer](http://www.siggi-sternenschlaefer.de) heißt es.',
-        image: { src: '/images/photos/siggi-sternenschlaefer.webp', alt: 'Kinderbuch „Träum schön, Siggi Sternenschläfer“', href: 'http://www.siggi-sternenschlaefer.de' },
       },
       {
         text: 'Ich schreibe, zeichne, filme Comedy. Mein Kindheitstraum war, der Nachfolger von Loriot zu werden. Vielleicht werde ich aber auch einfach [DerMartin.de](https://www.dermartin.de) :)',
@@ -134,25 +167,20 @@ export const HOME: L<{
       {
         text: 'Ich begeistere mich für viele Dinge und teile inspirierende und praktische Gedanken in meinem [Blog](/blog) und einem monatlichen [Newsletter](/newsletter).',
       },
+      {
+        text: 'Was erwartet Dich im Newsletter? „Random good stuff to excite, inspire, and entertain you.“ Genauer: Praktische Tipps zum Umgang mit KI, Leben, Business, Gesundheit und Geldanlagen; die interessantesten Bücher, Videos, Artikel und Produkte; Updates zu meinen Projekten und was mich sonst gerade fasziniert. Hier kannst Du Dich für meinen „Inspiration Newsletter“ anmelden:',
+        form: true,
+      },
     ],
-    list: {
-      heading: 'Hier kannst Du Dich für meinen „Inspiration Newsletter“ anmelden:',
-      subline: 'Allerlei Gutes, das Dich begeistert, inspiriert und unterhält.',
-      note: 'Kostenlos, einmal im Monat, von einem Menschen aka mir geschrieben :)',
-    },
   },
   en: {
     hero: { lines: ['Hi, I’m Martin Ferfers.', 'Great to have you here!'] },
     blocks: [
       {
-        text: `I’ve [founded several internet startups](/projects) and worked at various innovation consulting firms. Currently, I help entrepreneurs make better use of AI’s potential. [Interested in a free AI audit?](${auditMail(
-          'AI audit',
-          'Hi there, I am interested in an AI audit for me & my business.\n\n(Info for you as the business owner: We set up a 1-hour call and go through your business and where and how AI could help you. Within a week, you will then receive a 5-page quick-win report and an in-depth playbook on how to implement the recommendations.)',
-        )})`,
+        text: `I’ve [founded several internet startups](/projects) and worked at various innovation consulting firms. Currently, I help entrepreneurs make better use of AI’s potential. [Interested in a free AI audit?](${AUDIT.en})`,
       },
       {
         text: 'Even before my two kids were born, I wrote, illustrated, and published a children’s book. It’s called [“Träum schön, Siggi Sternenschläfer”](http://www.siggi-sternenschlaefer.de) (I printed some English versions too: Sweet Dreams, Ziggy Starsleeper).',
-        image: { src: '/images/photos/siggi-sternenschlaefer.webp', alt: 'Children’s book “Träum schön, Siggi Sternenschläfer”', href: 'http://www.siggi-sternenschlaefer.de' },
       },
       {
         text: 'I write, draw, and film comedy. My childhood dream was to become Loriot’s successor. But maybe I’ll just become [DerMartin.de](https://www.dermartin.de) :)',
@@ -160,70 +188,26 @@ export const HOME: L<{
       {
         text: 'I’m passionate about many things and share inspiring and practical thoughts on my [blog](/blog) and in a monthly [newsletter](/newsletter).',
       },
+      {
+        text: 'What can you expect from the newsletter? “Random good stuff to excite, inspire, and entertain you.” More specifically: practical tips on AI, life, business, health and investing; the most interesting books, videos, articles and products; updates on my projects and whatever else fascinates me at the moment. You can sign up for my “Inspiration Newsletter” here:',
+        form: true,
+      },
     ],
-    list: {
-      heading: 'You can sign up for my “Inspiration Newsletter” here:',
-      subline: 'Random good stuff to excite, inspire, and entertain you.',
-      note: 'Free, once a month, written by a real person – aka me :)',
-    },
   },
 }
 
-export const NEWSLETTER: L<{
-  title: string
-  subline: string
-  note: string
-  intro: string[]
-  interestsHeading: string
-  interests: string[]
-  expectHeading: string
-  expect: string[]
-  joinHeading: string
-  bio: string
-  confirmed: { heading: string; text: string }
-}> = {
+/** Fixed parts of the newsletter page. The running text and the "about me" paragraph are edited in the CMS (Newsletter-Seite). */
+export const NEWSLETTER: L<{ title: string; subline: string; joinHeading: string; confirmed: { heading: string; text: string } }> = {
   de: {
     title: 'Inspiration Newsletter',
-    subline: 'Allerlei Gutes, das Dich begeistert, inspiriert und unterhält.',
-    note: 'Kostenlos, einmal im Monat, von einem Menschen geschrieben :)',
-    intro: [
-      'Ich bin wie das sprichwörtliche hektische Eichhörnchen: immer abgelenkt und angezogen von der nächsten Nuss. Die Nüsse sind in diesem Fall Innovationen, zufällige inspirierende Fundstücke, die Recherche nach dem besten Produkt für X und so weiter. Manchmal finde ich auch die Ruhe, sitzen zu bleiben und längere Blogbeiträge zu schreiben.',
-      'All das, was Dich vielleicht auslaugt – sich in noch ein Thema einzugraben, das beste Zeug zu finden, umsetzbare Wege zu einem glücklicheren und lustigeren Leben zu entdecken und das alles aufzuschreiben –, liebe ich, und es gibt mir Energie. Lass mich meine Erkenntnisse und meine Energie an Dich weitergeben!',
-    ],
-    interestsHeading: 'Erwarte breit gestreutes Futter für Deinen Kopf aus meinen Interessengebieten:',
-    interests: ['Innovation & Technologie', 'Glück & menschlicher Geist', 'Geldanlage & persönliche Finanzen', 'Gesundheit & Fitness', 'Startups'],
-    expectHeading: 'Was Dich erwartet:',
-    expect: [
-      'Praktische Tipps, wie Du Dich in KI, Leben, Gesundheit & Geldanlage zurechtfindest',
-      'Inspirierende Gedanken',
-      'Die interessantesten Bücher, Videos und Artikel',
-      'Produktempfehlungen – im Grunde die Ergebnisse meiner neurotisch ausführlichen Recherchen nach „dem besten Produkt für X“',
-      'Hintergründe zu meinen neuen Projekten und vieles mehr',
-    ],
+    subline: 'Random good stuff to excite, inspire, and entertain you.',
     joinHeading: 'Melde Dich jetzt für meinen Inspiration Newsletter an:',
-    bio: 'Ich bin Martin Ferfers. Ich habe [mehrere Internet-Startups gegründet](/projects), in der Innovationsberatung gearbeitet, biete [KI-Beratung](https://www.spark-innovation.de) an, habe [ein Kinderbuch geschrieben, illustriert & veröffentlicht](http://www.siggi-sternenschlaefer.de), mache nebenbei [Comedy](https://www.dermartin.de) und habe [alle Fehler bei der Geldanlage schon gemacht](/blog/2023/7/13/komplettloesung-geldanlage), damit Du jetzt klüger investieren kannst. [Mehr über mich](/about)',
     confirmed: { heading: 'Danke, Du bist dabei!', text: 'Deine Anmeldung ist bestätigt. Die nächste Ausgabe landet in Deinem Postfach.' },
   },
   en: {
     title: 'Inspiration Newsletter',
-    subline: 'Random good stuff to excite, inspire and entertain you.',
-    note: 'Free, once per month, written by a human :)',
-    intro: [
-      'I am like the proverbial hectic squirrel: always distracted and attracted by the next nut. Nut in this case being innovations, random inspiring stuff, researching the best product for X, etc. Sometimes I find the time to stay put and write longer blog posts.',
-      'All this stuff that might drain you – digging into yet another topic, finding the best stuff, finding actionable ways to live a happier, more fun life, writing all this out – I love it and it gives me energy. Let me pass on my insights and energy to you!',
-    ],
-    interestsHeading: 'Expect wide-ranging fuel for your mind from my areas of interest:',
-    interests: ['Innovation & Technology', 'Happiness & Human Mind', 'Investing & Personal Finance', 'Health & Fitness', 'Startups'],
-    expectHeading: 'What you can expect:',
-    expect: [
-      'Practical tips on navigating AI, life, health & investing',
-      'Inspiring thoughts',
-      'The most interesting books, videos, and articles',
-      'Product recommendations – essentially the results of my neurotically extensive research into "the best product for X"',
-      'Background information on my new projects, etc.',
-    ],
+    subline: 'Random good stuff to excite, inspire, and entertain you.',
     joinHeading: 'Join my Inspiration Newsletter now:',
-    bio: 'I am Martin Ferfers. I [started several internet startups](/projects), worked in innovation consulting, offer [AI consulting](https://www.spark-innovation.de), [wrote, illustrated & published a children´s book](http://www.siggi-sternenschlaefer.de), do [comedy](https://www.dermartin.de) on the side and have [made all the investment mistakes](de:/blog/2023/7/13/komplettloesung-geldanlage) (in German) so you can invest wiser now. [Read more about me here](/about)',
     confirmed: { heading: 'Thanks, you’re in!', text: 'Your subscription is confirmed. The next issue will land in your inbox.' },
   },
 }
@@ -361,16 +345,16 @@ export const CONTACT: { image: string } & L<{
   de: {
     title: 'Kontakt',
     greeting: 'Hallo!',
-    list: { heading: 'Bleib in Kontakt', text: 'Mein Inspiration Newsletter: kostenlos, einmal im Monat, von einem Menschen geschrieben :)' },
+    list: { heading: 'Bleib in Kontakt', text: 'Mein Inspiration Newsletter: „Random good stuff to excite, inspire, and entertain you.“' },
     message: {
       heading: 'Schreib mir',
-      text: 'Ich komme immer gern mit nachdenklichen, interessanten, inspirierenden Menschen in Kontakt. Schick mir einfach eine Nachricht.',
+      text: 'Ich komme immer gern mit interessanten, inspirierenden Menschen in Kontakt. Schick mir einfach eine Nachricht.',
     },
   },
   en: {
     title: 'Contact',
     greeting: 'Hi there!',
-    list: { heading: 'Stay in Touch', text: 'My Inspiration Newsletter: free, once per month, written by a human :)' },
+    list: { heading: 'Stay in Touch', text: 'My Inspiration Newsletter: “Random good stuff to excite, inspire, and entertain you.”' },
     message: {
       heading: 'Drop me a line',
       text: 'I always like to get in touch with thoughtful, interesting, inspiring people. Just send me a message.',

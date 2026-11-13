@@ -1,5 +1,7 @@
 import { NewsletterView } from '@/views/Newsletter'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
   title: 'Inspiration Newsletter',
   alternates: { languages: { de: '/newsletter', en: '/en/newsletter' } },

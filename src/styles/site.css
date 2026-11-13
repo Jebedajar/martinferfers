@@ -66,7 +66,7 @@ p { margin: 0 0 1em; }
 .site-header { border-bottom: 1px solid var(--line); background: var(--paper); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 92px; }
 .logo { display: block; flex: 0 1 auto; }
-.logo img { width: clamp(220px, 32vw, 360px); height: auto; }
+.logo img { width: clamp(190px, 22vw, 270px); height: auto; }
 .nav { display: flex; gap: 28px; }
 .nav a { font: 400 0.95rem/1 var(--mono); color: var(--ink); text-decoration: none; padding: 8px 0; border-bottom: 2px solid transparent; }
 .nav a:hover { color: var(--spark-ink); }
@@ -75,7 +75,7 @@ p { margin: 0 0 1em; }
 
 @media (max-width: 860px) {
   .header-inner { min-height: 72px; flex-wrap: wrap; }
-  .logo img { width: min(240px, 60vw); }
+  .logo img { width: min(210px, 58vw); }
   .nav-toggle {
     display: inline-block; background: none; border: 1px solid var(--line); border-radius: 3px;
     font: 400 0.9rem var(--mono); color: var(--ink); padding: 8px 12px; cursor: pointer;
@@ -116,7 +116,7 @@ p { margin: 0 0 1em; }
 
 /* ---------- forms ---------- */
 .form { display: grid; gap: 16px; max-width: 520px; }
-.form-inline { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; max-width: 560px; flex: 1 1 360px; }
+.form-inline { display: flex; flex-wrap: wrap; align-items: stretch; gap: 12px; max-width: 560px; flex: 1 1 360px; }
 .form-inline .field { flex: 1 1 240px; }
 .field { display: grid; gap: 6px; }
 .field span { font: 400 0.85rem var(--mono); color: var(--grey); }
@@ -307,3 +307,28 @@ p { margin: 0 0 1em; }
 .blog-other-head { font-size: 1rem; color: var(--grey); text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 2px solid var(--ink); padding-bottom: 10px; margin-bottom: 8px; }
 .blog-other .post-item:first-of-type { padding-top: 32px; }
 .post-translation { font-family: var(--mono); font-size: 0.9rem; margin: -0.4em 0 0; }
+
+/* ---------- revision 2 ---------- */
+/* slim banner on the home page: just the text and the balloons */
+.banner-slim .banner-text { padding-block: clamp(26px, 3.6vw, 44px); }
+.banner-slim .banner-image { object-position: 50% 42%; }
+.banner-slim .banner-title { margin: 0; font-size: clamp(1.35rem, 2.8vw, 2.1rem); }
+
+/* email field without heading */
+.field-bare { gap: 0; }
+
+/* newsletter sign-up inside the home bullet list */
+.home-block-form .kit-form { margin-top: 18px; font-size: 1rem; max-width: 640px; }
+.home-block .form-note { font-family: var(--mono); font-size: 0.85rem; color: var(--grey); margin-top: 2px; }
+.form-note { font-family: var(--mono); font-size: 0.85rem; }
+
+/* footer: mission text instead of the big claim */
+.footer-mission { max-width: 62ch; }
+.footer-mission p { margin: 0 0 0.35em; font: 400 clamp(1rem, 1.5vw, 1.15rem)/1.55 var(--mono); color: #fff; }
+.footer-mission p:last-child { margin: 0.6em 0 0; color: var(--spark-soft); }
+.footer-mission .star { color: var(--spark); margin-left: 0.15em; }
+.footer-columns { display: flex; flex-wrap: wrap; gap: clamp(32px, 8vw, 120px); padding-bottom: clamp(36px, 5vw, 56px); }
+.footer-columns h2 { font: 500 0.8rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: #8fb6d6; margin: 0 0 12px; }
+.footer-columns ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.footer-columns a { text-decoration: none; }
+.footer-columns a:hover { text-decoration: underline; }

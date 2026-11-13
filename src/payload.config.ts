@@ -15,6 +15,7 @@ import { Messages } from './collections/Messages'
 import { Subscribers } from './collections/Subscribers'
 import { NowPage } from './globals/NowPage'
 import { AboutQuote } from './globals/AboutQuote'
+import { NewsletterPage } from './globals/NewsletterPage'
 import { de } from '@payloadcms/translations/languages/de'
 import { en } from '@payloadcms/translations/languages/en'
 
@@ -76,7 +77,7 @@ export default buildConfig({
   },
   i18n: { supportedLanguages: { de, en }, fallbackLanguage: 'de' },
   collections: [Posts, Media, Messages, Subscribers, Users],
-  globals: [NowPage, AboutQuote],
+  globals: [NowPage, AboutQuote, NewsletterPage],
   editor: lexicalEditor(),
   // The real secret is a Worker secret at runtime; the build only needs a placeholder
   secret:
