@@ -1,6 +1,7 @@
+import { pageMeta } from '@/lib/meta'
 import { ContactView } from '@/views/Contact'
 
-export const metadata = { title: 'Contact', alternates: { canonical: '/en/contact', languages: { de: '/contact', en: '/en/contact' } } }
+export const metadata = pageMeta('contact', 'en', '/contact')
 
 export default function Page() {
   return <ContactView lang="en" />

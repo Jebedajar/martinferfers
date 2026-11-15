@@ -1,11 +1,9 @@
+import { pageMeta } from '@/lib/meta'
 import { NewsletterView } from '@/views/Newsletter'
 
 export const dynamic = 'force-dynamic'
 
-export const metadata = {
-  title: 'Inspiration Newsletter',
-  alternates: { canonical: '/en/newsletter', languages: { de: '/newsletter', en: '/en/newsletter' } },
-}
+export const metadata = pageMeta('newsletter', 'en', '/newsletter')
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ confirmed?: string }> }) {
   const { confirmed } = await searchParams

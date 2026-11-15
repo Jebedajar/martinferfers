@@ -7,14 +7,15 @@ import '@/styles/site.css'
 import type { Metadata, Viewport } from 'next'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { SITE, UI } from '@/content/site'
+import { META, SITE, UI } from '@/content/site'
 import type { Lang } from '@/lib/i18n'
 
 export function siteMetadata(lang: Lang): Metadata {
   return {
     metadataBase: new URL(SITE.origin),
-    title: { default: SITE.title, template: `%s — ${SITE.name}` },
-    description: SITE.description[lang],
+    // Fixed pages set their exact title in content/site.ts (META); blog posts become "<post title> – Martin Ferfers"
+    title: { default: META.home[lang].title, template: `%s – ${SITE.name}` },
+    description: META.home[lang].description,
     openGraph: {
       siteName: SITE.name,
       type: 'website',
@@ -22,7 +23,14 @@ export function siteMetadata(lang: Lang): Metadata {
       images: [{ url: SITE.logo.src, width: SITE.logo.width, height: SITE.logo.height }],
     },
     twitter: { card: 'summary' },
-    icons: { icon: '/favicon.png', apple: '/apple-touch-icon.png' },
+    icons: {
+      // Animated asterisk (changes colour like the logo); PNG for browsers that only show static icons
+      icon: [
+        { url: '/favicon.gif', type: 'image/gif', sizes: '32x32' },
+        { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      ],
+      apple: '/apple-touch-icon.png',
+    },
   }
 }
 

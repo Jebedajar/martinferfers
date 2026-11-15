@@ -1,6 +1,7 @@
+import { pageMeta } from '@/lib/meta'
 import { ImpressumView } from '@/views/Impressum'
 
-export const metadata = { title: 'Imprint', alternates: { canonical: '/en/impressum', languages: { de: '/impressum', en: '/en/impressum' } } }
+export const metadata = pageMeta('impressum', 'en', '/impressum')
 
 export default function Page() {
   return <ImpressumView lang="en" />

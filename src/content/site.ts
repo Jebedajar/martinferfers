@@ -29,10 +29,6 @@ export const KIT = {
 export const SITE = {
   name: 'Martin Ferfers',
   title: 'Martin Ferfers',
-  description: {
-    de: 'Meine Mission: Ideen zum Leben erwecken, die diese Welt zu einem besseren oder zumindest lustigeren Ort machen. – Martin Ferfers',
-    en: 'This is my mission: Bring ideas to life that make this world a better or at least more fun place to live in. – Martin Ferfers',
-  } as L,
   origin: process.env.NEXT_PUBLIC_SITE_URL || 'https://martinferfers.de',
   logo: {
     src: '/images/martin-ferfers-logo.gif',
@@ -375,3 +371,80 @@ export const IMPRESSUM = {
 }
 
 export const t = <T,>(value: L<T>, lang: Lang): T => value[lang]
+
+/** Browser titles and search-engine descriptions of the pages (titles are used exactly as written). */
+export const META: Record<
+  'home' | 'about' | 'newsletter' | 'blog' | 'projects' | 'contact' | 'now' | 'impressum',
+  L<{ title: string; description: string }>
+> = {
+  home: {
+    de: {
+      title: 'Martin Ferfers: Die persönliche Homepage von Martin Ferfers',
+      description:
+        'Ich bin Martin Ferfers, Unternehmer, Berater, Komiker, Kinderbuchautor und Schriftsteller. Abonniere meinen „Inspiration“-Newsletter: Random good stuff to excite, inspire and entertain you.',
+    },
+    en: {
+      title: 'Martin Ferfers: The personal home page of Martin Ferfers',
+      description:
+        'I´m Martin Ferfers, entrepreneur, consultant, comedian, children´s book author and writer. Join my Inspiration Newsletter for good stuff to excite, inspire and entertain you.',
+    },
+  },
+  projects: {
+    de: {
+      title: 'Martin Ferfers – Projekte',
+      description:
+        'Meine Mission: Ideen zum Leben erwecken, die diese Welt zu einem besseren oder zumindest lustigeren Ort machen. Hier sind meine Projekte – von Grünspar und Thiocyn bis Siggi Sternenschläfer.',
+    },
+    en: {
+      title: 'Martin Ferfers – Projects',
+      description:
+        'This is my mission: Bring ideas to life that make this world a better or at least more fun place to live in. Here are my projects, from Grünspar and Thiocyn to Siggi Sternenschläfer.',
+    },
+  },
+  newsletter: {
+    de: {
+      title: 'Martin Ferfers – Newsletter',
+      description:
+        'Melde Dich für meinen „Inspiration Newsletter“ an: Random good stuff to excite, inspire and entertain you. Kostenlos, einmal im Monat, von einem Menschen aka mir geschrieben :)',
+    },
+    en: {
+      title: 'Martin Ferfers – Newsletter',
+      description:
+        'Sign up for my “Inspiration Newsletter”. Get random good stuff to excite, inspire, and entertain you. Free, once a month, written by a real person – aka me :)',
+    },
+  },
+  blog: {
+    de: { title: 'Martin Ferfers – Blog', description: 'Denkfutter zu Leben, Gesundheit & Business.' },
+    en: { title: 'Martin Ferfers – Blog', description: 'Food for thought about life, health & business.' },
+  },
+  about: {
+    de: {
+      title: 'Martin Ferfers – Über mich',
+      description:
+        'Unternehmer, Ideen-Architekt, Investor und Comedian: Mitgründer von Grünspar und Thiocyn, Autor des Kinderbuchs Siggi Sternenschläfer. Meine Mission: Ideen zum Leben erwecken, die die Welt besser oder zumindest lustiger machen.',
+    },
+    en: {
+      title: 'Martin Ferfers – About',
+      description:
+        'Entrepreneur, architect of ideas, investor and comedian: co-founder of Grünspar and Thiocyn, author of the children´s book Siggi Sternenschläfer. My mission: bring ideas to life that make the world a better or at least more fun place.',
+    },
+  },
+  contact: {
+    de: {
+      title: 'Martin Ferfers – Kontakt',
+      description: 'Schreib mir eine Nachricht – oder abonniere meinen Inspiration Newsletter.',
+    },
+    en: {
+      title: 'Martin Ferfers – Contact',
+      description: 'Drop me a line – or join my Inspiration Newsletter.',
+    },
+  },
+  now: {
+    de: { title: 'Martin Ferfers – Now', description: 'Woran ich gerade arbeite und was mich gerade beschäftigt.' },
+    en: { title: 'Martin Ferfers – Now', description: 'What I am working on and thinking about right now.' },
+  },
+  impressum: {
+    de: { title: 'Martin Ferfers – Impressum', description: 'Impressum von martinferfers.de' },
+    en: { title: 'Martin Ferfers – Imprint', description: 'Imprint (Impressum) of martinferfers.de' },
+  },
+}
