@@ -215,6 +215,8 @@ p { margin: 0 0 1em; }
 /* legal */
 .legal { max-width: 760px; }
 .legal h1 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.legal h2 { font-size: 1.15rem; margin: 2em 0 0.5em; }
+.legal section p { overflow-wrap: anywhere; }
 
 /* ---------- footer ---------- */
 .site-footer { background: var(--night); color: #d6e9f8; margin-top: 0; }
@@ -367,3 +369,7 @@ p { margin: 0 0 1em; }
   .product-image img, .post-figure img { border-radius: 2px; }
   .tag-list li { color: var(--spark-ink); }
 }
+
+/* privacy hint under forms */
+.form-note.form-privacy { font-size: 0.75rem; }
+.form-privacy a { color: inherit; text-decoration: underline; }

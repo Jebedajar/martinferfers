@@ -56,6 +56,7 @@ export function Footer({ lang }: { lang: Lang }) {
         <span>{f.copyright}</span>
         <nav aria-label="Footer">
           <Link href={localize('/impressum', lang)}>{ui.impressum}</Link>
+          <Link href={localize('/datenschutz', lang)}>{ui.privacy}</Link>
           <a href={f.twitter} target="_blank" rel="noopener noreferrer">
             Twitter
           </a>

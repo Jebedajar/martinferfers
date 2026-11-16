@@ -6,7 +6,7 @@ import { getPosts, postLang } from '@/lib/posts'
 export const dynamic = 'force-dynamic'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const paths = ['/', '/about', '/newsletter', '/blog', '/projects', '/contact', '/now', '/impressum']
+  const paths = ['/', '/about', '/newsletter', '/blog', '/projects', '/contact', '/now', '/impressum', '/datenschutz']
   const pages = paths.map((p) => ({
     url: `${SITE.origin}${localize(p, 'de')}`,
     alternates: { languages: { de: `${SITE.origin}${localize(p, 'de')}`, en: `${SITE.origin}${localize(p, 'en')}` } },

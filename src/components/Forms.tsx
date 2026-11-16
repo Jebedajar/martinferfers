@@ -2,6 +2,7 @@
 import { useActionState, useEffect, useState } from 'react'
 import { sendMessage, type FormState } from '@/lib/actions'
 import { KIT, UI } from '@/content/site'
+import { Inline } from '@/components/Inline'
 import type { Lang } from '@/lib/i18n'
 
 const initial: FormState = { status: 'idle' }
@@ -91,6 +92,9 @@ export function KitForm({
       </button>
       <Status state={state} />
       {!hideNote && <p className="form-note">{ui.note}</p>}
+      <p className="form-note form-privacy">
+        <Inline text={ui.privacyNewsletter} lang={lang} />
+      </p>
     </form>
   )
 }
@@ -119,6 +123,9 @@ export function ContactForm({ lang }: { lang: Lang }) {
         {pending ? ui.sending : ui.send}
       </button>
       <Status state={state} />
+      <p className="form-note form-privacy">
+        <Inline text={ui.privacyContact} lang={lang} />
+      </p>
     </form>
   )
 }

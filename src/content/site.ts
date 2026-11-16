@@ -88,6 +88,7 @@ export const UI = {
     switchLabel: 'Diese Seite auf Englisch',
     backToTop: 'Nach oben',
     impressum: 'Impressum',
+    privacy: 'Datenschutz',
     readMore: 'Weiterlesen',
     backToBlog: '← Zurück zum Blog',
     noPosts: 'Noch keine Beiträge auf Deutsch.',
@@ -110,6 +111,8 @@ export const UI = {
       subscribed: 'Fast geschafft! Bitte bestätige Deine Anmeldung über den Link in der E-Mail, die ich Dir gerade geschickt habe.',
       subscribeError: 'Das hat leider nicht geklappt. Bitte versuch es gleich noch einmal.',
       note: 'Kostenlos, einmal im Monat, von einem Menschen aka mir geschrieben :)',
+      privacyNewsletter: 'Abmelden geht jederzeit. Infos zu Double-Opt-in, Kit und Auswertung: [Datenschutz](/datenschutz).',
+      privacyContact: 'Ich nutze Deine Angaben nur, um Dir zu antworten. Mehr dazu: [Datenschutz](/datenschutz).',
     },
   },
   en: {
@@ -122,6 +125,7 @@ export const UI = {
     switchLabel: 'This page in German',
     backToTop: 'Back to Top',
     impressum: 'Imprint',
+    privacy: 'Privacy',
     readMore: 'Read More',
     backToBlog: '← Back to Blog',
     noPosts: 'No posts in English yet.',
@@ -144,6 +148,8 @@ export const UI = {
       subscribed: 'Almost there! Please confirm your subscription via the link in the email I just sent you.',
       subscribeError: 'That did not work. Please try again in a moment.',
       note: 'Free, once a month, written by a real person – aka me :)',
+      privacyNewsletter: 'Unsubscribe anytime. Details on double opt-in, Kit and tracking: [Privacy](/datenschutz).',
+      privacyContact: 'I only use your details to reply to you. More: [Privacy](/datenschutz).',
     },
   },
 } satisfies L<unknown>
@@ -374,7 +380,7 @@ export const t = <T,>(value: L<T>, lang: Lang): T => value[lang]
 
 /** Browser titles and search-engine descriptions of the pages (titles are used exactly as written). */
 export const META: Record<
-  'home' | 'about' | 'newsletter' | 'blog' | 'projects' | 'contact' | 'now' | 'impressum',
+  'home' | 'about' | 'newsletter' | 'blog' | 'projects' | 'contact' | 'now' | 'impressum' | 'datenschutz',
   L<{ title: string; description: string }>
 > = {
   home: {
@@ -446,5 +452,9 @@ export const META: Record<
   impressum: {
     de: { title: 'Martin Ferfers – Impressum', description: 'Impressum von martinferfers.de' },
     en: { title: 'Martin Ferfers – Imprint', description: 'Imprint (Impressum) of martinferfers.de' },
+  },
+  datenschutz: {
+    de: { title: 'Martin Ferfers – Datenschutz', description: 'Datenschutzerklärung von martinferfers.de' },
+    en: { title: 'Martin Ferfers – Privacy Policy', description: 'Privacy policy of martinferfers.de' },
   },
 }

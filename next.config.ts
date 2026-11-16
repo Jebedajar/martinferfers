@@ -28,6 +28,9 @@ const nextConfig: NextConfig = {
       // "Sparks" is now called "Projects"
       { source: '/sparks', destination: '/projects', permanent: true },
       { source: '/en/sparks', destination: '/en/projects', permanent: true },
+      // Common English/German names of the privacy page
+      { source: '/privacy', destination: '/datenschutz', permanent: true },
+      { source: '/en/privacy', destination: '/en/datenschutz', permanent: true },
       { source: '/de', destination: '/', permanent: true },
       { source: '/de/:path*', destination: '/:path*', permanent: true },
     ]
