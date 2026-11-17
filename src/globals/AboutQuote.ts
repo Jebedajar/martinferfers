@@ -4,7 +4,7 @@ import type { GlobalConfig } from 'payload'
 export const AboutQuote: GlobalConfig = {
   slug: 'about-quote',
   label: 'About-Seite: Zitat',
-  admin: { group: 'Inhalte', description: 'Zitat unter „And Remember:“ auf der About-Seite. Leer lassen = kein Zitat.' },
+  admin: { hidden: true, group: 'Inhalte', description: 'Zitat unter „And Remember:“ auf der About-Seite. Leer lassen = kein Zitat.' },
   access: { read: () => true },
   fields: [
     { name: 'quote', label: 'Zitat', type: 'textarea' },

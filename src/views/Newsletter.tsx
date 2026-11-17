@@ -1,8 +1,7 @@
-import config from '@payload-config'
-import { getPayload } from 'payload'
 import { KitForm } from '@/components/Forms'
 import { PostContent } from '@/components/PostContent'
 import { NEWSLETTER } from '@/content/site'
+import { getGlobalSafe, orText } from '@/lib/cms'
 import type { Lang } from '@/lib/i18n'
 
 function Cta({ lang }: { lang: Lang }) {
@@ -14,11 +13,20 @@ function Cta({ lang }: { lang: Lang }) {
 }
 
 export async function NewsletterView({ lang, confirmed }: { lang: Lang; confirmed?: boolean }) {
-  const c = NEWSLETTER[lang]
-  const payload = await getPayload({ config })
-  const page = await payload.findGlobal({ slug: 'newsletter-page', depth: 0 })
-  const content = lang === 'de' ? page.contentDe : page.contentEn
-  const bio = lang === 'de' ? page.bioDe : page.bioEn
+  const f = NEWSLETTER[lang]
+  const page = await getGlobalSafe('newsletter-page')
+  const de = lang === 'de'
+  const content = de ? page?.contentDe : page?.contentEn
+  const bio = de ? page?.bioDe : page?.bioEn
+  const c = {
+    title: orText(de ? page?.titleDe : page?.titleEn, f.title),
+    subline: orText(de ? page?.sublineDe : page?.sublineEn, f.subline),
+    joinHeading: orText(de ? page?.joinHeadingDe : page?.joinHeadingEn, f.joinHeading),
+    confirmed: {
+      heading: orText(de ? page?.confirmedHeadingDe : page?.confirmedHeadingEn, f.confirmed.heading),
+      text: orText(de ? page?.confirmedTextDe : page?.confirmedTextEn, f.confirmed.text),
+    },
+  }
   return (
     <div className="wrap page newsletter">
       {confirmed && (

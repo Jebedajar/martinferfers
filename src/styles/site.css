@@ -373,3 +373,14 @@ p { margin: 0 0 1em; }
 /* privacy hint under forms */
 .form-note.form-privacy { font-size: 0.75rem; }
 .form-privacy a { color: inherit; text-decoration: underline; }
+
+/* CMS-driven home text: every top-level paragraph gets the star like .home-block */
+.home-rich > * { position: relative; padding-left: 1.8em; font-size: clamp(1.1rem, 1.6vw, 1.25rem); line-height: 1.7; margin: 0; }
+.home-rich > *::before { content: '*'; position: absolute; left: 0.1em; top: -0.05em; color: var(--spark); font: 500 1.6em/1.3 var(--mono); }
+.home-rich > * + * { margin-top: 1.6em; }
+.home-rich + .home-block { margin-top: 1.6em; }
+.home-block-form p + p { margin-top: 1em; }
+/* CMS-driven bio list on the About page, styled like .star-list */
+.star-list-rich ul { list-style: none; padding: 0; margin: 0 0 1.5em; }
+.star-list-rich li { position: relative; padding-left: 1.6em; margin-bottom: 0.9em; }
+.star-list-rich li::before { content: '*'; position: absolute; left: 0.2em; top: -0.05em; color: var(--spark); font: 500 1.3em/1.4 var(--mono); }

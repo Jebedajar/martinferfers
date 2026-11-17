@@ -94,14 +94,18 @@ export interface Config {
   };
   fallbackLocale: null;
   globals: {
+    'home-page': HomePage;
+    'about-page': AboutPage;
+    'newsletter-page': NewsletterPage;
     'now-page': NowPage;
     'about-quote': AboutQuote;
-    'newsletter-page': NewsletterPage;
   };
   globalsSelect: {
+    'home-page': HomePageSelect<false> | HomePageSelect<true>;
+    'about-page': AboutPageSelect<false> | AboutPageSelect<true>;
+    'newsletter-page': NewsletterPageSelect<false> | NewsletterPageSelect<true>;
     'now-page': NowPageSelect<false> | NowPageSelect<true>;
     'about-quote': AboutQuoteSelect<false> | AboutQuoteSelect<true>;
-    'newsletter-page': NewsletterPageSelect<false> | NewsletterPageSelect<true>;
   };
   locale: null;
   widgets: {
@@ -455,6 +459,252 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   createdAt?: T;
 }
 /**
+ * Texte der Startseite. Jeder Absatz im Text bekommt automatisch ein *-Sternchen davor. Das Anmeldeformular steht fest unter dem Newsletter-Absatz.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "home-page".
+ */
+export interface HomePage {
+  id: number;
+  /**
+   * Jede Zeile wird eine eigene Zeile im Banner.
+   */
+  heroDe?: string | null;
+  introDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  newsletterDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  /**
+   * Jede Zeile wird eine eigene Zeile im Banner.
+   */
+  heroEn?: string | null;
+  introEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  newsletterEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  _status?: ('draft' | 'published') | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * Texte der Seite „Über mich / About“.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "about-page".
+ */
+export interface AboutPage {
+  id: number;
+  /**
+   * Jede Zeile wird eine eigene Zeile.
+   */
+  missionDe?: string | null;
+  twoWaysIntroDe?: string | null;
+  /**
+   * Ein Weg pro Zeile; die Nummern davor setzt die Seite.
+   */
+  waysDe?: string | null;
+  projectsLinkDe?: string | null;
+  rememberHeadingDe?: string | null;
+  contactLinkDe?: string | null;
+  /**
+   * Jede Zeile wird eine eigene Zeile.
+   */
+  bioHeadingDe?: string | null;
+  /**
+   * Als Aufzählung schreiben; jeder Punkt bekommt auf der Seite ein *-Sternchen.
+   */
+  bioDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  nowLinkDe?: string | null;
+  /**
+   * Jede Zeile wird eine eigene Zeile.
+   */
+  missionEn?: string | null;
+  twoWaysIntroEn?: string | null;
+  /**
+   * Ein Weg pro Zeile; die Nummern davor setzt die Seite.
+   */
+  waysEn?: string | null;
+  projectsLinkEn?: string | null;
+  rememberHeadingEn?: string | null;
+  contactLinkEn?: string | null;
+  /**
+   * Jede Zeile wird eine eigene Zeile.
+   */
+  bioHeadingEn?: string | null;
+  /**
+   * Als Aufzählung schreiben; jeder Punkt bekommt auf der Seite ein *-Sternchen.
+   */
+  bioEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  nowLinkEn?: string | null;
+  quote?: string | null;
+  quoteAuthor?: string | null;
+  _status?: ('draft' | 'published') | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * Texte der Seite „Inspiration Newsletter“. Die Anmeldeformulare stehen fest auf der Seite.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "newsletter-page".
+ */
+export interface NewsletterPage {
+  id: number;
+  titleDe?: string | null;
+  sublineDe?: string | null;
+  contentDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  joinHeadingDe?: string | null;
+  bioDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  confirmedHeadingDe?: string | null;
+  confirmedTextDe?: string | null;
+  titleEn?: string | null;
+  sublineEn?: string | null;
+  contentEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  joinHeadingEn?: string | null;
+  bioEn?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  confirmedHeadingEn?: string | null;
+  confirmedTextEn?: string | null;
+  _status?: ('draft' | 'published') | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
  * Die Seite „Was ich gerade mache / What I´m doing now“ unter /now und /en/now.
  *
  * This interface was referenced by `Config`'s JSON-Schema
@@ -512,76 +762,74 @@ export interface AboutQuote {
   createdAt?: string | null;
 }
 /**
- * Texte der Seite „Inspiration Newsletter“. Überschrift und Anmeldeformulare stehen fest auf der Seite; hier pflegst du den Text dazwischen und den Absatz über dich am Ende.
- *
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "newsletter-page".
+ * via the `definition` "home-page_select".
  */
-export interface NewsletterPage {
-  id: number;
-  contentDe?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
-  bioDe?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
-  contentEn?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
-  bioEn?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
-  _status?: ('draft' | 'published') | null;
-  updatedAt?: string | null;
-  createdAt?: string | null;
+export interface HomePageSelect<T extends boolean = true> {
+  heroDe?: T;
+  introDe?: T;
+  newsletterDe?: T;
+  heroEn?: T;
+  introEn?: T;
+  newsletterEn?: T;
+  _status?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "about-page_select".
+ */
+export interface AboutPageSelect<T extends boolean = true> {
+  missionDe?: T;
+  twoWaysIntroDe?: T;
+  waysDe?: T;
+  projectsLinkDe?: T;
+  rememberHeadingDe?: T;
+  contactLinkDe?: T;
+  bioHeadingDe?: T;
+  bioDe?: T;
+  nowLinkDe?: T;
+  missionEn?: T;
+  twoWaysIntroEn?: T;
+  waysEn?: T;
+  projectsLinkEn?: T;
+  rememberHeadingEn?: T;
+  contactLinkEn?: T;
+  bioHeadingEn?: T;
+  bioEn?: T;
+  nowLinkEn?: T;
+  quote?: T;
+  quoteAuthor?: T;
+  _status?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "newsletter-page_select".
+ */
+export interface NewsletterPageSelect<T extends boolean = true> {
+  titleDe?: T;
+  sublineDe?: T;
+  contentDe?: T;
+  joinHeadingDe?: T;
+  bioDe?: T;
+  confirmedHeadingDe?: T;
+  confirmedTextDe?: T;
+  titleEn?: T;
+  sublineEn?: T;
+  contentEn?: T;
+  joinHeadingEn?: T;
+  bioEn?: T;
+  confirmedHeadingEn?: T;
+  confirmedTextEn?: T;
+  _status?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -604,20 +852,6 @@ export interface NowPageSelect<T extends boolean = true> {
 export interface AboutQuoteSelect<T extends boolean = true> {
   quote?: T;
   author?: T;
-  updatedAt?: T;
-  createdAt?: T;
-  globalType?: T;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "newsletter-page_select".
- */
-export interface NewsletterPageSelect<T extends boolean = true> {
-  contentDe?: T;
-  bioDe?: T;
-  contentEn?: T;
-  bioEn?: T;
-  _status?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;

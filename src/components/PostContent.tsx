@@ -58,3 +58,15 @@ export function PostContent({ data }: { data: unknown }) {
   if (!data) return null
   return <RichText className="prose" data={data as SerializedEditorState} converters={converters} />
 }
+
+/** Rich text from the CMS without the blog "prose" wrapper (pages style their own paragraphs). */
+export function RichBody({ data }: { data: unknown }) {
+  if (!data) return null
+  return <RichText data={data as SerializedEditorState} converters={converters} disableContainer />
+}
+
+/** True when a rich text field holds at least some text. */
+export function hasRichText(data: unknown): boolean {
+  const children = (data as { root?: { children?: unknown[] } } | null)?.root?.children
+  return Array.isArray(children) && JSON.stringify(children).includes('"text":"')
+}

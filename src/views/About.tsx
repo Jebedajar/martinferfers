@@ -1,33 +1,38 @@
 import Link from 'next/link'
-import config from '@payload-config'
-import { getPayload } from 'payload'
 import { Inline, Lines } from '@/components/Inline'
+import { RichBody, hasRichText } from '@/components/PostContent'
 import { ABOUT } from '@/content/site'
+import { getGlobalSafe, orText, toLines } from '@/lib/cms'
 import { localize, type Lang } from '@/lib/i18n'
 
+/** About page. Texts come from the CMS global "Über mich"; src/content/site.ts is the fallback. */
 export async function AboutView({ lang }: { lang: Lang }) {
   const c = ABOUT[lang]
-  let quote = ''
-  let author = 'Bruce Springsteen'
-  try {
-    const payload = await getPayload({ config })
-    const q = await payload.findGlobal({ slug: 'about-quote' })
-    if (q?.quote) {
-      quote = q.quote
-      author = q.author || author
-    }
-  } catch (err) {
-    console.error('about-quote', err)
+  const p = await getGlobalSafe('about-page')
+  const de = lang === 'de'
+  const t = {
+    mission: toLines(de ? p?.missionDe : p?.missionEn, c.mission),
+    intro: orText(de ? p?.twoWaysIntroDe : p?.twoWaysIntroEn, c.twoWays.intro),
+    ways: toLines(de ? p?.waysDe : p?.waysEn, c.twoWays.ways),
+    projectsLink: orText(de ? p?.projectsLinkDe : p?.projectsLinkEn, c.projectsLink),
+    rememberHeading: orText(de ? p?.rememberHeadingDe : p?.rememberHeadingEn, c.remember.heading),
+    contactLink: orText(de ? p?.contactLinkDe : p?.contactLinkEn, c.contactLink),
+    bioHeading: toLines(de ? p?.bioHeadingDe : p?.bioHeadingEn, c.bio.heading),
+    bio: de ? p?.bioDe : p?.bioEn,
+    nowLink: orText(de ? p?.nowLinkDe : p?.nowLinkEn, c.bio.now),
   }
+  const quote = p?.quote?.trim() || ''
+  const author = p?.quoteAuthor?.trim() || ''
+
   return (
     <div className="wrap page about">
       <section className="about-mission">
         <h1>
-          <Lines lines={c.mission} lang={lang} />
+          <Lines lines={t.mission} lang={lang} />
         </h1>
-        <p>{c.twoWays.intro}</p>
+        <p>{t.intro}</p>
         <p className="two-ways">
-          {c.twoWays.ways.map((way, i) => (
+          {t.ways.map((way, i) => (
             <span key={way}>
               {i > 0 && <span className="sep"> • </span>}
               {i + 1}
@@ -37,36 +42,42 @@ export async function AboutView({ lang }: { lang: Lang }) {
           ))}
         </p>
         <Link className="button" href={localize('/projects', lang)}>
-          {c.projectsLink}
+          {t.projectsLink}
         </Link>
       </section>
 
       {quote && (
         <section className="about-remember">
-          <h2>{c.remember.heading}</h2>
+          <h2>{t.rememberHeading}</h2>
           <blockquote>
             <p>{quote}</p>
-            <cite>— {author}</cite>
+            {author && <cite>— {author}</cite>}
           </blockquote>
           <Link className="button" href={localize('/contact', lang)}>
-            {c.contactLink}
+            {t.contactLink}
           </Link>
         </section>
       )}
 
       <section className="about-bio">
         <h2>
-          <Lines lines={c.bio.heading} lang={lang} />
+          <Lines lines={t.bioHeading} lang={lang} />
         </h2>
-        <ul className="star-list">
-          {c.bio.items.map((item) => (
-            <li key={item.slice(0, 30)}>
-              <Inline text={item} lang={lang} />
-            </li>
-          ))}
-        </ul>
+        {hasRichText(t.bio) ? (
+          <div className="star-list-rich">
+            <RichBody data={t.bio} />
+          </div>
+        ) : (
+          <ul className="star-list">
+            {c.bio.items.map((item) => (
+              <li key={item.slice(0, 30)}>
+                <Inline text={item} lang={lang} />
+              </li>
+            ))}
+          </ul>
+        )}
         <p className="about-now">
-          <Link href={localize('/now', lang)}>{c.bio.now}</Link>
+          <Link href={localize('/now', lang)}>{t.nowLink}</Link>
         </p>
       </section>
     </div>
