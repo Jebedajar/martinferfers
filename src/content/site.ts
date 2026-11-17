@@ -372,7 +372,7 @@ export const CONTACT: { image: string } & L<{
 
 export const IMPRESSUM = {
   heading: 'Herausgeber und Verantwortlicher für den Inhalt des Online-Angebotes:',
-  address: ['Martin Ferfers', 'Spark Ventures GmbH', 'Prof. Schwippert Str. 15', '40591 Düsseldorf'],
+  address: ['Martin Ferfers', 'Spark Ventures GmbH', 'Lenneper Str. 32', '40591 Düsseldorf', 'E-Mail: [martin@martinferfers.de](mailto:martin@martinferfers.de)'],
   credits: 'Image credits: Balloon-Image@Home - Naoya Fuji • Spark-Image@Contacts - [Daniel Dionne](https://www.flickr.com/photos/mrzeon/4457645467/)',
 }
 
