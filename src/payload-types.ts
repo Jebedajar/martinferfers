@@ -455,13 +455,29 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   createdAt?: T;
 }
 /**
- * Die Seite „What I´m doing now“ unter /now.
+ * Die Seite „Was ich gerade mache / What I´m doing now“ unter /now und /en/now.
  *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "now-page".
  */
 export interface NowPage {
   id: number;
+  titleDe?: string | null;
+  contentDe?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
   title: string;
   content?: {
     root: {
@@ -572,6 +588,8 @@ export interface NewsletterPage {
  * via the `definition` "now-page_select".
  */
 export interface NowPageSelect<T extends boolean = true> {
+  titleDe?: T;
+  contentDe?: T;
   title?: T;
   content?: T;
   _status?: T;

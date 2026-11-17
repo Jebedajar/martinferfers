@@ -250,7 +250,7 @@ export const ABOUT: L<{
         'Ich liebe Ehrlichkeit bei Essen und Menschen. Beide sind meistens großartig. Knapp dahinter auf meiner privaten Leidenschafts-Hitliste: Reisen, Humor, elektronische Musik.',
         'Geboren in Neuss – und stolz drauf.',
       ],
-      now: 'Was ich gerade mache (auf Englisch)',
+      now: 'Was ich gerade mache',
     },
   },
   en: {

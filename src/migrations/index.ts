@@ -8,6 +8,7 @@ import * as migration_20261106_124500_update_winter_is_coming from './20261106_1
 import * as migration_20261106_144500_winter_is_coming_variants from './20261106_144500_winter_is_coming_variants';
 import * as migration_20261113_120000_bilingual_posts_data from './20261113_120000_bilingual_posts_data';
 import * as migration_20261113_205901_newsletter_page from './20261113_205901_newsletter_page';
+import * as migration_20261117_145414_now_page_bilingual from './20261117_145414_now_page_bilingual';
 
 export const migrations = [
   {
@@ -58,6 +59,11 @@ export const migrations = [
   {
     up: migration_20261113_205901_newsletter_page.up,
     down: migration_20261113_205901_newsletter_page.down,
-    name: '20261113_205901_newsletter_page'
+    name: '20261113_205901_newsletter_page',
+  },
+  {
+    up: migration_20261117_145414_now_page_bilingual.up,
+    down: migration_20261117_145414_now_page_bilingual.down,
+    name: '20261117_145414_now_page_bilingual'
   },
 ];

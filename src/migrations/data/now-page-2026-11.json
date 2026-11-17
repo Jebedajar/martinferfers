@@ -1,0 +1,542 @@
+{
+ "title": "What I´m doing now",
+ "content": {
+  "root": {
+   "children": [
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "November 2026",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "heading",
+     "version": 1,
+     "tag": "h2"
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "We welcomed our second baby boy in March. He is an(other) angel, and I love him with every bit of my heart. We’ve started going to swimming “lessons” once a week. The big one is doing great as well, and I try to get in some sport at least once a week.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "After feeding ten years of notes, thoughts and hours of monologue about my life, projects, friends and more into Claude, I had a small epiphany: I need to focus on what I’m genuinely best at, the things that feel like play to me but like work to others aka my superpowers. Yes, kind of obvious. But actually living it is a big deal for me.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "So for the next few months, I will only:",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "share inspiring, exciting and interesting things in a monthly newsletter, plus a few more blog posts",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "write and illustrate a comedy book for DerMartin.de",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 2
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "do AI consulting for entrepreneurs",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 3
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "list",
+     "version": 1,
+     "listType": "bullet",
+     "start": 1,
+     "tag": "ul"
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Together with Claude, I’ve set up a clear work schedule, which helps a lot for an always-distracted squirrel like me. My days already feel more fulfilled and happier.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "I may have picked a bad moment to step away from daily trading, or at least from staring at the charts. Or maybe not. The coming months will tell.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Also:",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "Planning our holidays for 2027, possibly Thailand.",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "I’ve had some joint pain in my arms, but I’m slowly getting back into it: running my boy to kindergarten once or twice a week and doing some exercise.",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 2
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "list",
+     "version": 1,
+     "listType": "bullet",
+     "start": 1,
+     "tag": "ul"
+    }
+   ],
+   "direction": null,
+   "format": "",
+   "indent": 0,
+   "type": "root",
+   "version": 1
+  }
+ },
+ "titleDe": "Was ich gerade mache",
+ "contentDe": {
+  "root": {
+   "children": [
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "November 2026",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "heading",
+     "version": 1,
+     "tag": "h2"
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Im März ist unser zweiter Sohn zur Welt gekommen. Er ist ein weiterer Engel, und ich liebe ihn von ganzem Herzen. Einmal pro Woche gehen wir jetzt zum Babyschwimmen. Dem Großen geht es ebenfalls super, und ich versuche, mindestens einmal pro Woche Sport mit ihm zu machen.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Ich habe zehn Jahre an Notizen, Gedanken und stundenlangen Monologen über mein Leben, meine Projekte, Freunde und vieles mehr in Claude gesteckt. Herausgekommen ist eine kleine Erleuchtung: Ich muss mich auf das konzentrieren, was ich wirklich am besten kann. Auf das, was sich für mich wie Spielen anfühlt und für andere wie Arbeit. Meine Superkräfte. Ja, eigentlich offensichtlich. Aber es wirklich zu leben, ist für mich ein großer Schritt.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Deshalb werde ich in den nächsten Monaten ausschließlich:",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "Inspirierendes, Spannendes und Interessantes in einem monatlichen Newsletter teilen, dazu ein paar Blogbeiträge schreiben",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "ein Comedy-Buch für DerMartin.de schreiben und illustrieren",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 2
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "KI-Beratung für Unternehmer durchführen",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 3
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "list",
+     "version": 1,
+     "listType": "bullet",
+     "start": 1,
+     "tag": "ul"
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Zusammen mit Claude habe ich mir einen klaren Arbeitsplan gebaut. Das hilft mir als ewig abgelenktem Eichhörnchen sehr. Meine Tage fühlen sich schon jetzt erfüllter und glücklicher an.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Vielleicht habe ich mir einen schlechten Zeitpunkt ausgesucht, um mich vom täglichen Trading zu verabschieden, oder zumindest vom ständigen Blick auf die Charts. Vielleicht aber auch nicht. Die nächsten Monate werden es zeigen.",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "detail": 0,
+       "format": 0,
+       "mode": "normal",
+       "style": "",
+       "text": "Außerdem:",
+       "type": "text",
+       "version": 1
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "paragraph",
+     "version": 1,
+     "textFormat": 0,
+     "textStyle": ""
+    },
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "Ich plane unseren Urlaub für 2027, vielleicht Thailand.",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 1
+      },
+      {
+       "children": [
+        {
+         "detail": 0,
+         "format": 0,
+         "mode": "normal",
+         "style": "",
+         "text": "Ich hatte Gelenkschmerzen in den Armen, steige aber langsam wieder ein: Ein- bis zweimal pro Woche laufe ich mit meinem Sohn zur Kita, dazu ein paar Übungen.",
+         "type": "text",
+         "version": 1
+        }
+       ],
+       "direction": null,
+       "format": "",
+       "indent": 0,
+       "type": "listitem",
+       "version": 1,
+       "value": 2
+      }
+     ],
+     "direction": null,
+     "format": "",
+     "indent": 0,
+     "type": "list",
+     "version": 1,
+     "listType": "bullet",
+     "start": 1,
+     "tag": "ul"
+    }
+   ],
+   "direction": null,
+   "format": "",
+   "indent": 0,
+   "type": "root",
+   "version": 1
+  }
+ }
+}

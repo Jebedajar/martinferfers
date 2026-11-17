@@ -6,5 +6,5 @@ export const dynamic = 'force-dynamic'
 export const metadata = pageMeta('now', 'de', '/now')
 
 export default function Page() {
-  return <NowView />
+  return <NowView lang="de" />
 }

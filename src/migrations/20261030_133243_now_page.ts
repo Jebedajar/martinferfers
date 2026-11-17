@@ -1,7 +1,7 @@
 import { MigrateUpArgs, MigrateDownArgs, sql } from '@payloadcms/db-d1-sqlite'
 import nowPage from './data/now-page.json'
 
-export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
+export async function up({ db }: MigrateUpArgs): Promise<void> {
   await db.run(sql`CREATE TABLE \`now_page\` (
   	\`id\` integer PRIMARY KEY NOT NULL,
   	\`title\` text DEFAULT 'What I´m doing now',
@@ -29,16 +29,19 @@ export async function up({ db, payload, req }: MigrateUpArgs): Promise<void> {
   await db.run(sql`CREATE INDEX \`_now_page_v_updated_at_idx\` ON \`_now_page_v\` (\`updated_at\`);`)
   await db.run(sql`CREATE INDEX \`_now_page_v_latest_idx\` ON \`_now_page_v\` (\`latest\`);`)
 
-  // Content of the old /now page
-  await payload.updateGlobal({
-    slug: 'now-page',
-    data: { ...(nowPage as any), _status: 'published' },
-    draft: false,
-    req,
-  })
+  // Content of the old /now page (plain SQL, so later schema changes cannot break this migration)
+  const now = new Date().toISOString()
+  const title = (nowPage as { title: string }).title
+  const content = JSON.stringify((nowPage as { content: unknown }).content)
+  await db.run(
+    sql`INSERT INTO now_page (id, title, content, _status, updated_at, created_at) VALUES (1, ${title}, ${content}, 'published', ${now}, ${now});`,
+  )
+  await db.run(
+    sql`INSERT INTO _now_page_v (version_title, version_content, version__status, version_updated_at, version_created_at, latest) VALUES (${title}, ${content}, 'published', ${now}, ${now}, 1);`,
+  )
 }
 
-export async function down({ db, payload, req }: MigrateDownArgs): Promise<void> {
+export async function down({ db }: MigrateDownArgs): Promise<void> {
   await db.run(sql`DROP TABLE \`now_page\`;`)
   await db.run(sql`DROP TABLE \`_now_page_v\`;`)
 }
