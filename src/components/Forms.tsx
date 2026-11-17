@@ -92,9 +92,6 @@ export function KitForm({
       </button>
       <Status state={state} />
       {!hideNote && <p className="form-note">{ui.note}</p>}
-      <p className="form-note form-privacy">
-        <Inline text={ui.privacyNewsletter} lang={lang} />
-      </p>
     </form>
   )
 }
