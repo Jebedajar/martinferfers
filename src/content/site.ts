@@ -221,15 +221,16 @@ export const NEWSLETTER: L<{ title: string; subline: string; joinHeading: string
 export const ABOUT: L<{
   mission: string[]
   twoWays: { intro: string; ways: string[] }
-  projectsLink: string
   remember: { heading: string }
   contactLink: string
   bio: { heading: string[]; items: string[]; now: string }
 }> = {
   de: {
     mission: ['Das ist meine Mission:', 'Ideen zum Leben erwecken, die diese Welt', 'zu einem besseren oder zumindest lustigeren Ort machen.'],
-    twoWays: { intro: 'Meine Mission lebe ich auf zwei Wegen:', ways: ['Eigene Ideen umsetzen', 'Andere beraten'] },
-    projectsLink: 'Meine bisherigen Projekte',
+    twoWays: {
+      intro: 'Meine Mission lebe ich auf drei Wegen:',
+      ways: ['[Eigene Ideen umsetzen](/projects)', '[Andere beraten](https://www.spark-innovation.de)', '[Inspirierendes mit der Welt teilen](/newsletter)'],
+    },
     remember: { heading: 'Und denk dran:' },
     contactLink: 'Schreib mir',
     bio: {
@@ -253,8 +254,10 @@ export const ABOUT: L<{
   },
   en: {
     mission: ['This is my mission:', 'Bring ideas to life that make this world', 'a better or at least more fun place to live in.'],
-    twoWays: { intro: 'Living up to my mission two ways:', ways: ['Realizing own ideas', 'Consulting others'] },
-    projectsLink: 'My projects so far',
+    twoWays: {
+      intro: 'Living up to my mission three ways:',
+      ways: ['[Realizing own ideas](/projects)', '[Consulting others](https://www.spark-innovation.de)', '[Sharing inspiring stuff with the world](/newsletter)'],
+    },
     remember: { heading: 'And Remember:' },
     contactLink: 'Get in touch',
     bio: {

@@ -552,7 +552,7 @@ export interface AboutPage {
   missionDe?: string | null;
   twoWaysIntroDe?: string | null;
   /**
-   * Ein Weg pro Zeile; die Nummern davor setzt die Seite.
+   * Ein Weg pro Zeile; die Nummern davor setzt die Seite. Link: [Text](/projects) oder [Text](https://…)
    */
   waysDe?: string | null;
   projectsLinkDe?: string | null;
@@ -587,7 +587,7 @@ export interface AboutPage {
   missionEn?: string | null;
   twoWaysIntroEn?: string | null;
   /**
-   * Ein Weg pro Zeile; die Nummern davor setzt die Seite.
+   * Ein Weg pro Zeile; die Nummern davor setzt die Seite. Link: [Text](/projects) oder [Text](https://…)
    */
   waysEn?: string | null;
   projectsLinkEn?: string | null;

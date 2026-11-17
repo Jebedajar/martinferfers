@@ -7,9 +7,10 @@ const lines = 'Jede Zeile wird eine eigene Zeile.'
 
 const langFields = (s: 'De' | 'En'): Field[] => [
   { name: `mission${s}`, label: 'Mission (Überschrift)', type: 'textarea', admin: { description: lines } },
-  { name: `twoWaysIntro${s}`, label: 'Satz vor den zwei Wegen', type: 'text' },
-  { name: `ways${s}`, label: 'Die Wege', type: 'textarea', admin: { description: 'Ein Weg pro Zeile; die Nummern davor setzt die Seite.' } },
-  { name: `projectsLink${s}`, label: 'Button zu den Projekten', type: 'text' },
+  { name: `twoWaysIntro${s}`, label: 'Satz vor den Wegen', type: 'text' },
+  { name: `ways${s}`, label: 'Die Wege', type: 'textarea', admin: { description: 'Ein Weg pro Zeile; die Nummern davor setzt die Seite. Link: [Text](/projects) oder [Text](https://…)' } },
+  // no longer shown on the page (kept so the database schema stays the same)
+  { name: `projectsLink${s}`, label: 'Button zu den Projekten', type: 'text', admin: { hidden: true } },
   { name: `rememberHeading${s}`, label: 'Überschrift über dem Zitat', type: 'text' },
   { name: `contactLink${s}`, label: 'Button zum Kontakt', type: 'text' },
   { name: `bioHeading${s}`, label: 'Überschrift über dem Lebenslauf', type: 'textarea', admin: { description: lines } },

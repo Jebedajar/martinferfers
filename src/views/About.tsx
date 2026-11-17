@@ -14,7 +14,6 @@ export async function AboutView({ lang }: { lang: Lang }) {
     mission: toLines(de ? p?.missionDe : p?.missionEn, c.mission),
     intro: orText(de ? p?.twoWaysIntroDe : p?.twoWaysIntroEn, c.twoWays.intro),
     ways: toLines(de ? p?.waysDe : p?.waysEn, c.twoWays.ways),
-    projectsLink: orText(de ? p?.projectsLinkDe : p?.projectsLinkEn, c.projectsLink),
     rememberHeading: orText(de ? p?.rememberHeadingDe : p?.rememberHeadingEn, c.remember.heading),
     contactLink: orText(de ? p?.contactLinkDe : p?.contactLinkEn, c.contactLink),
     bioHeading: toLines(de ? p?.bioHeadingDe : p?.bioHeadingEn, c.bio.heading),
@@ -37,13 +36,10 @@ export async function AboutView({ lang }: { lang: Lang }) {
               {i > 0 && <span className="sep"> • </span>}
               {i + 1}
               <span className="star">*</span>
-              {way}
+              <Inline text={way} lang={lang} />
             </span>
           ))}
         </p>
-        <Link className="button" href={localize('/projects', lang)}>
-          {t.projectsLink}
-        </Link>
       </section>
 
       {quote && (

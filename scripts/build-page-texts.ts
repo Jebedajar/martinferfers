@@ -78,7 +78,7 @@ for (const lang of ['de', 'en'] as const) {
   out[`mission${S}`] = a.mission.join('\n')
   out[`twoWaysIntro${S}`] = a.twoWays.intro
   out[`ways${S}`] = a.twoWays.ways.join('\n')
-  out[`projectsLink${S}`] = a.projectsLink
+  out[`projectsLink${S}`] = ''
   out[`rememberHeading${S}`] = a.remember.heading
   out[`contactLink${S}`] = a.contactLink
   out[`bioHeading${S}`] = a.bio.heading.join('\n')

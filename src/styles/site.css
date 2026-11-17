@@ -144,9 +144,12 @@ p { margin: 0 0 1em; }
 /* about */
 .about section { max-width: 760px; }
 .about section + section { margin-top: clamp(48px, 7vw, 88px); padding-top: clamp(40px, 6vw, 64px); border-top: 1px solid var(--line); }
-.about-mission h1 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 500; }
+.about-mission h1 { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 500; }
 .two-ways { font: 400 1.2rem/1.5 var(--mono); }
-.two-ways .sep { color: var(--grey); }
+.two-ways .sep { display: none; }
+.two-ways > span { display: block; margin-bottom: 0.35em; }
+.two-ways a { color: inherit; text-decoration-color: var(--spark); text-underline-offset: 0.2em; }
+.two-ways a:hover { color: var(--spark-ink); }
 .about-remember h2, .about-bio h2 { font-size: clamp(1.25rem, 2.2vw, 1.6rem); }
 .about-remember blockquote { margin: 0 0 1.5em; padding-left: 20px; border-left: 3px solid var(--spark); font-size: 1.3rem; }
 .about-remember cite { font-style: normal; color: var(--grey); font-size: 1rem; }
