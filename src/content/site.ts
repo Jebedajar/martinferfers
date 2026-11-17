@@ -347,14 +347,14 @@ export const BLOG: { image: string; lines: L<string[]> } = {
 export const CONTACT: { image: string } & L<{
   title: string
   greeting: string
-  list: { heading: string; text: string }
+  list: { heading: string; quote: string; text: string }
   message: { heading: string; text: string }
 }> = {
   image: '/images/photos/funkenflug.webp',
   de: {
     title: 'Kontakt',
     greeting: 'Hallo!',
-    list: { heading: 'Bleib in Kontakt', text: 'Mein Inspiration Newsletter: „Random good stuff to excite, inspire, and entertain you.“' },
+    list: { heading: 'Inspiration Newsletter', quote: '„Random good stuff to excite, inspire, and entertain you.“', text: 'Melde Dich hier zum Inspiration Newsletter an:' },
     message: {
       heading: 'Schreib mir',
       text: 'Ich komme immer gern mit interessanten, inspirierenden Menschen in Kontakt. Schick mir einfach eine Nachricht.',
@@ -363,7 +363,7 @@ export const CONTACT: { image: string } & L<{
   en: {
     title: 'Contact',
     greeting: 'Hi there!',
-    list: { heading: 'Stay in Touch', text: 'My Inspiration Newsletter: “Random good stuff to excite, inspire, and entertain you.”' },
+    list: { heading: 'Inspiration Newsletter', quote: '“Random good stuff to excite, inspire, and entertain you.”', text: 'Sign up for my Inspiration Newsletter here:' },
     message: {
       heading: 'Drop me a line',
       text: 'I always like to get in touch with thoughtful, interesting, inspiring people. Just send me a message.',

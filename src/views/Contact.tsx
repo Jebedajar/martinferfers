@@ -11,15 +11,16 @@ export function ContactView({ lang }: { lang: Lang }) {
         <h1 className="banner-title">{c.greeting}</h1>
       </Banner>
       <div className="wrap page contact">
+        <section id="newsletter">
+          <h2>{c.list.heading}</h2>
+          <p>{c.list.quote}</p>
+          <p>{c.list.text}</p>
+          <KitForm lang={lang} />
+        </section>
         <section>
           <h2>{c.message.heading}</h2>
           <p>{c.message.text}</p>
           <ContactForm lang={lang} />
-        </section>
-        <section id="newsletter">
-          <h2>{c.list.heading}</h2>
-          <p>{c.list.text}</p>
-          <KitForm lang={lang} />
         </section>
       </div>
     </>
