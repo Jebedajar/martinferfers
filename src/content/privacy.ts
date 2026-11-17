@@ -31,7 +31,7 @@ export const PRIVACY: L<{ title: string; intro: string; updated: string; section
       {
         heading: '3. Cookies und Reichweitenmessung',
         paragraphs: [
-          'Die Website setzt für Besucher keine Cookies und nutzt kein Tracking und keine Reichweitenmessung. Schriftarten werden vom eigenen Server geladen, nicht von Drittanbietern. Nur beim Login in den Redaktionsbereich (/admin) wird ein technisch notwendiges Sitzungs-Cookie gesetzt (§ 25 Abs. 2 TDDDG); das betrifft ausschließlich mich als Betreiber.',
+          'Die Website setzt für Besucher keine Cookies und nutzt kein Tracking und keine Reichweitenmessung. Schriftarten werden vom eigenen Server geladen, nicht von Drittanbietern. Nur beim Login in den Redaktionsbereich (/admin) wird ein technisch notwendiges Sitzungs-Cookie gesetzt (§ 25 Abs. 2 TDDDG); das betrifft ausschließlich mich als Betreiber. Einzige Ausnahme ist die Danke-Seite nach der Newsletter-Anmeldung mit einem eingebetteten YouTube-Video (siehe Abschnitt 6).',
         ],
       },
       {
@@ -51,26 +51,33 @@ export const PRIVACY: L<{ title: string; intro: string; updated: string; section
         ],
       },
       {
-        heading: '6. Links zu anderen Websites',
+        heading: '6. YouTube-Video auf der Danke-Seite',
+        paragraphs: [
+          'Nach der Bestätigung der Newsletter-Anmeldung landen Sie auf einer Danke-Seite (/awesome). Sie bettet ein YouTube-Video im erweiterten Datenschutzmodus (youtube-nocookie.com) ein, das automatisch und stumm startet. Anbieter ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Beim Aufruf dieser Seite werden Ihre IP-Adresse und technische Daten Ihres Browsers an Google übermittelt; Google kann zudem Informationen auf Ihrem Gerät speichern. Eine Übermittlung in die USA ist möglich; Google ist nach dem EU-US Data Privacy Framework zertifiziert.',
+          'Rechtsgrundlage ist mein berechtigtes Interesse, mich bei neuen Abonnentinnen und Abonnenten auf unterhaltsame Weise zu bedanken (Art. 6 Abs. 1 lit. f DSGVO). Die Seite ist nicht über die Navigation erreichbar und wird von Suchmaschinen nicht indexiert. Weitere Informationen: Datenschutzerklärung von Google (policies.google.com/privacy).',
+        ],
+      },
+      {
+        heading: '7. Links zu anderen Websites',
         paragraphs: [
           'Die Website enthält Links zu anderen Websites, etwa zu meinen Projekten. Daten werden erst übermittelt, wenn Sie einen Link anklicken; für diese Seiten ist der jeweilige Anbieter verantwortlich.',
         ],
       },
       {
-        heading: '7. Speicherdauer',
+        heading: '8. Speicherdauer',
         paragraphs: [
           'Ich speichere personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck nötig ist oder gesetzliche Aufbewahrungspflichten es verlangen. Technische Zugriffsdaten speichert Cloudflare nur kurzfristig zum sicheren Betrieb.',
         ],
       },
       {
-        heading: '8. Ihre Rechte',
+        heading: '9. Ihre Rechte',
         paragraphs: [
           'Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21). Eine Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3). Schreiben Sie dazu einfach an [martin@martinferfers.de](mailto:martin@martinferfers.de).',
           'Sie können sich außerdem bei einer Datenschutzaufsichtsbehörde beschweren, zum Beispiel bei der Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (LDI NRW).',
         ],
       },
       {
-        heading: '9. Änderungen',
+        heading: '10. Änderungen',
         paragraphs: ['Ich passe diese Erklärung an, wenn sich die Website oder die genutzten Dienste ändern.'],
       },
     ],
@@ -98,7 +105,7 @@ export const PRIVACY: L<{ title: string; intro: string; updated: string; section
       {
         heading: '3. Cookies and analytics',
         paragraphs: [
-          'The website sets no cookies for visitors and uses no tracking or analytics. Fonts are served from the site’s own server, not from third parties. Only logging in to the editorial area (/admin) sets a strictly necessary session cookie (Section 25(2) TDDDG); this concerns only me as the operator.',
+          'The website sets no cookies for visitors and uses no tracking or analytics. Fonts are served from the site’s own server, not from third parties. Only logging in to the editorial area (/admin) sets a strictly necessary session cookie (Section 25(2) TDDDG); this concerns only me as the operator. The only exception is the thank-you page after the newsletter sign-up, which embeds a YouTube video (see section 6).',
         ],
       },
       {
@@ -118,26 +125,33 @@ export const PRIVACY: L<{ title: string; intro: string; updated: string; section
         ],
       },
       {
-        heading: '6. Links to other websites',
+        heading: '6. YouTube video on the thank-you page',
+        paragraphs: [
+          'After confirming your newsletter subscription, you land on a thank-you page (/awesome). It embeds a YouTube video in privacy-enhanced mode (youtube-nocookie.com) that starts automatically and muted. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. When this page loads, your IP address and technical browser data are transferred to Google; Google may also store information on your device. A transfer to the USA is possible; Google is certified under the EU-US Data Privacy Framework.',
+          'The legal basis is my legitimate interest in thanking new subscribers in an entertaining way (Art. 6(1)(f) GDPR). The page is not linked in the navigation and is not indexed by search engines. More information: Google’s privacy policy (policies.google.com/privacy).',
+        ],
+      },
+      {
+        heading: '7. Links to other websites',
         paragraphs: [
           'The website links to other websites, for example my projects. No data is transferred until you click a link; the respective provider is responsible for those sites.',
         ],
       },
       {
-        heading: '7. Retention',
+        heading: '8. Retention',
         paragraphs: [
           'I keep personal data only as long as needed for the purpose or as required by statutory retention periods. Cloudflare keeps technical access data only briefly for secure operation.',
         ],
       },
       {
-        heading: '8. Your rights',
+        heading: '9. Your rights',
         paragraphs: [
           'You have the right of access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object to processing based on legitimate interests (Art. 21). You can withdraw consent at any time with effect for the future (Art. 7(3)). Just write to [martin@martinferfers.de](mailto:martin@martinferfers.de).',
           'You may also lodge a complaint with a data protection supervisory authority, for example the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia (LDI NRW).',
         ],
       },
       {
-        heading: '9. Changes',
+        heading: '10. Changes',
         paragraphs: ['I update this policy when the website or the services it uses change.'],
       },
     ],

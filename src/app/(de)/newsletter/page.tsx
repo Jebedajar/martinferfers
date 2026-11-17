@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation'
 import { pageMeta } from '@/lib/meta'
 import { NewsletterView } from '@/views/Newsletter'
 
@@ -7,5 +8,7 @@ export const metadata = pageMeta('newsletter', 'de', '/newsletter')
 
 export default async function Page({ searchParams }: { searchParams: Promise<{ confirmed?: string }> }) {
   const { confirmed } = await searchParams
+  // Kit sends people here after they confirm their subscription → thank-you page
+  if (confirmed === '1') redirect('/awesome')
   return <NewsletterView lang="de" confirmed={confirmed === '1'} />
 }

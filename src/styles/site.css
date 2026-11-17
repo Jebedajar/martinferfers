@@ -387,3 +387,10 @@ p { margin: 0 0 1em; }
 .star-list-rich ul { list-style: none; padding: 0; margin: 0 0 1.5em; }
 .star-list-rich li { position: relative; padding-left: 1.6em; margin-bottom: 0.9em; }
 .star-list-rich li::before { content: '*'; position: absolute; left: 0.2em; top: -0.05em; color: var(--spark); font: 500 1.3em/1.4 var(--mono); }
+
+/* thank-you page after the newsletter confirmation */
+.awesome { max-width: 900px; text-align: center; }
+.awesome h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); margin-bottom: 1.2em; }
+.awesome-line { color: var(--spark-ink); }
+.awesome-video { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 4px; overflow: hidden; }
+.awesome-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
