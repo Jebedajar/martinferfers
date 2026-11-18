@@ -11,6 +11,7 @@ import * as migration_20261113_205901_newsletter_page from './20261113_205901_ne
 import * as migration_20261117_145414_now_page_bilingual from './20261117_145414_now_page_bilingual';
 import * as migration_20261117_145937_home_about_newsletter_texts from './20261117_145937_home_about_newsletter_texts';
 import * as migration_20261117_204000_about_three_ways from './20261117_204000_about_three_ways';
+import * as migration_20261118_143000_post_ai_is_coming from './20261118_143000_post_ai_is_coming';
 
 export const migrations = [
   {
@@ -77,5 +78,10 @@ export const migrations = [
     up: migration_20261117_204000_about_three_ways.up,
     down: migration_20261117_204000_about_three_ways.down,
     name: '20261117_204000_about_three_ways',
+  },
+  {
+    up: migration_20261118_143000_post_ai_is_coming.up,
+    down: migration_20261118_143000_post_ai_is_coming.down,
+    name: '20261118_143000_post_ai_is_coming',
   },
 ];

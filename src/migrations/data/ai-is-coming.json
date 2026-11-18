@@ -1,0 +1,1418 @@
+{
+ "root": {
+  "type": "root",
+  "format": "",
+  "indent": 0,
+  "version": 1,
+  "direction": "ltr",
+  "children": [
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "93fd1f598d8719d8bb3bebb8",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-hero.jpg",
+     "alt": "AI is coming",
+     "caption": "",
+     "format": "hero"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Manche spielen KI-Tools immer noch runter, weil sie öfters Quatsch erzählen würden. Ich drossel meinen Enthusiasmus dann, wohlwissend, dass hier jemand vermutlich keinen überschwänglichen Redeschwall-Tsunami braucht, sondern eher 2-3 kleine Stupser, um auch zu seinen KI-WOW-Momenten zu kommen. Hier die Stupser:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Bezahlte Versionen nutzen",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Für viele klar, aber für viele auch nicht: Wenn Du nicht zahlst, bekommst Du nicht die neuesten, stärksten, besten Modelle. Überspitzt gesagt: Du bekommst den Praktikanten, nicht den Professor. Wenn man das nicht weiß, ist man erstmal auch vom Praktikanten schon recht verblüfft – denn quasi wie ein Mensch in solcher Geschwindigkeit und noch dazu einigermaßen sinnvoll zu antworten – das ist für sich noch immer ziemlich faszinierend für ein Computerprogramm. Aber glaubt mir: ein Professor, der 24/7 bereitsteht, Experte in jedem Fachgebiet ist, und das für einen Hungerlohn ist so unfassbar viel besser.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Das kosten die aktuell besten Modelle derzeit:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "ChatGPT Plus:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " 23 € im Monat, mit GPT-6. Die stärkste Stufe „Pro“ gibt es erst im Pro-Abo ab 103 € im Monat.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Claude Pro:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " 18 € im Monat zzgl. MwSt. (15 € bei jährlicher Zahlung), mit Opus 5.5. Max kostet 90 €, Ultra 180 € (jeweils zzgl. MwSt.).",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 2
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Google AI Pro (Gemini):",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " 21,99 € im Monat, mit Gemini 4 Argon. Ultra ab 99,99 €.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 3
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "2ea1adfacce705c4a736f2d0",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-preise-chatgpt.jpg",
+     "alt": "Preisübersicht von ChatGPT: Free, Go, Plus und Pro",
+     "caption": "Bild: chatgpt.com/pricing, Stand 18.11.2026",
+     "format": "original"
+    }
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "764b4666f67c92b44e9c2756",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-preise-claude.jpg",
+     "alt": "Preisübersicht von Claude: Free, Pro, Max und Ultra",
+     "caption": "Bild: claude.com/pricing, Stand 18.11.2026",
+     "format": "original"
+    }
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "ef020b1b08335707e8161ad3",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-preise-gemini.jpg",
+     "alt": "Preisübersicht von Google AI: Plus, Pro und Ultra",
+     "caption": "Bild: gemini.google/subscriptions, Stand 18.11.2026",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Wenn Du zahlst, musst Du zudem noch einstellen, dass auch wirklich der Professor antwortet. So geht das:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "ChatGPT:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " Im Eingabefeld auf „Modell auswählen“ klicken und den Regler nach rechts schieben (Hoch oder Extra hoch). Mit Pro-Abo gibt es darüber noch die Stufe „Pro“.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "2b680107ee15b04d2727e255",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-modell-chatgpt.png",
+     "alt": "ChatGPT: Modellauswahl mit Regler für die Denkstufe",
+     "caption": "Bild: ChatGPT",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Claude:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " Unter dem Eingabefeld auf den Modellnamen klicken, „Opus 5.5“ wählen und unter „Aufwand“ auf „Hoch“ oder „Extra hoch“ stellen.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "204ed6049ed29ab31b6200ac",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-modell-claude.jpg",
+     "alt": "Claude: Modellmenü mit Opus 5.5 und Aufwand-Stufen",
+     "caption": "Bild: Claude",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Gemini:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " Im Eingabefeld auf „Gemini“ klicken und „Code und Analyse“ (Gemini 4 Argon) statt „Automatic“ wählen. Das Schloss zeigt: ohne Abo nicht verfügbar.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "d9e7005d6700f60a765e4ecb",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-modell-gemini.jpg",
+     "alt": "Gemini: Modellmenü mit Automatic und Code und Analyse (Gemini 4 Argon)",
+     "caption": "Bild: Gemini",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Mit KI Geld sparen",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Vielleicht löst „Sparen“ bei Euch die Motivation aus, mehr zu probieren. In den letzten 2 Wochen habe ich das Folgende gespart:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "2x ca. 150 € pro Jahr Squarespace/Jimdo",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " – Webseiten-Baukästen – Bislang hatte ich mehrere statische Webseiten bei Anbietern, mit denen man die Seiten selbst „zusammenklicken“ kann. Eine „Bitte bau das nach.“ und 2 Stunden später laufen dermartin.de und spark-innovation.de gemeinsam für 5 €/Monat.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "400 € pro Jahr unnötige Hostinggebühren",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " – Beim Umzug meiner Seite fiel der KI auf, dass ich 2 unnötige Produkte seit längerem abonniert habe. Die KI hat die entsprechende Kündigung bzw. Zusammenlegung mehrerer Services auch gleich noch übernommen. Dazu gleich mehr.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 2
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "99 € pro Jahr Outbank",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " – Ein Tool zum Tracking meiner monatlichen Ausgaben. Liest meine Kontoauszüge automatisch, gruppiert Kostenblöcke und erlaubt Budgetierung und einfache Auswertung. Alle Kontoauszüge der letzten 3 Jahre und meine eigene daraus vor Jahren mühsam zusammengebaute Haushaltsbuch-Excel in Claude rein. 5 Minuten später steht eine visuell ansprechend gestaltete Übersichtsseite inklusive proaktiv erdachter Infos wie meinem rollierenden 12-Monats-Schnitt für bestimmte Kostenblöcke + diversen Hinweisen zur Kostenoptimierung.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 3
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Bonus: KI goes Black Friday",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " – Der mittlerweile wochenlange schwarze Konsumfreitag naht oder hat schon begonnen. Da Claude jetzt meine gesamten Ausgaben der letzten 3 Jahre kennt, habe ich ihn gebeten, für alles, was mehr als einmal gezahlt wurde, jeden Tag zweimal nach Black-Friday-Angeboten zu schauen und mir Angebote zu schicken.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 4
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "KI für viel mehr Probleme nutzen",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Viele, die grundsätzlich schon viel mit KI „rumprobieren“, sprechen mich dann doch wieder mit Fragestellungen an, auf die ich nur antworten kann: Schmeiß es in die KI rein. Inventurlisten sortieren, Dashboard für komplexe Vermögensaufstellungen bauen, Hunderte Qualitätsmanagement-Fragebögen zu einer Antwort-Datenbank destillieren – sowas. Also: Öfter und mehr wagen. Einfach mal die passenden Dateien reinwerfen. Sag, was Du willst, und schau, was die KI draus macht. (Und: vorher Professor aktivieren!) Wenn die Ergebnisse Dich nicht verblüffen, wäre ich es.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "KI machen lassen",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "In den letzten Jahren ist KI vom besseren Google zu einem ernstzunehmenden Sparringspartner und Bearbeiter von Daten geworden. Die neueste Entwicklung ist, dass die KI-Tools ohne großen Zusatzaufwand die Dinge für Dich auch machen können.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Wenn Deine KI das nächste Mal sagt „Dies und das solltest Du nun tun“ – und „dies und das“ lässt sich irgendwie über den Webbrowser lösen – sag der KI: „Dann mach das bitte“. Bei Claude musst Du dafür noch die Desktop-App oder die Chrome-Extension herunterladen. In ChatGPT musst Du bei einem neuen Chat oben „Work“ auswählen. Alternativ kannst Du auch hier die Desktop-App oder die Chrome-Extension nutzen.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Ein Wort zum Datenschutz",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Alle KI-Tools lassen Dich einstellen, dass Deine Daten nicht zum Trainieren der KI verwendet werden. Das bitte immer anstellen, sonst landet alles von Dir im Datenpool der Großen und somit auf lange Sicht wer weiß wo. Ich bin ansonsten in Sachen Datenschutz eher „uneuropäisch“, aber das sollte schon sein.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Hier, wo Du das jeweils einstellst:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "ChatGPT:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " Einstellungen → Datenkontrollen → „Das Modell für alle verbessern“ ausschalten.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     },
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Claude:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " Einstellungen → Datenschutz → „Zur Verbesserung unserer KI-Modelle beitragen“ ausschalten.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 2
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "d685a8723439c98d3b6098fc",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-datenschutz-claude.jpg",
+     "alt": "Claude: Einstellungen, Datenschutz, Schalter Zur Verbesserung unserer KI-Modelle beitragen ausgeschaltet",
+     "caption": "Bild: Claude",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "children": [
+       {
+        "detail": 0,
+        "format": 1,
+        "mode": "normal",
+        "style": "",
+        "text": "Gemini:",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " Auf ",
+        "type": "text",
+        "version": 1
+       },
+       {
+        "children": [
+         {
+          "detail": 0,
+          "format": 0,
+          "mode": "normal",
+          "style": "",
+          "text": "myactivity.google.com/product/gemini",
+          "type": "text",
+          "version": 1
+         }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "link",
+        "version": 3,
+        "fields": {
+         "linkType": "custom",
+         "newTab": true,
+         "url": "https://myactivity.google.com/product/gemini"
+        },
+        "id": "c78dc1cf19d03484478cb31a"
+       },
+       {
+        "detail": 0,
+        "format": 0,
+        "mode": "normal",
+        "style": "",
+        "text": " bei „Aktivitäten speichern“ auf „An“ klicken und „Deaktivieren“ wählen. Achtung: Danach speichert Gemini auch Deinen Chatverlauf nicht mehr.",
+        "type": "text",
+        "version": 1
+       }
+      ],
+      "direction": null,
+      "format": "",
+      "indent": 0,
+      "type": "listitem",
+      "version": 1,
+      "value": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "e87060041112d51bf2422dbb",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-datenschutz-gemini.jpg",
+     "alt": "Gemini: Aktivitäten speichern mit den Optionen Deaktivieren und Deaktivieren und Aktivitäten löschen",
+     "caption": "Bild: Google",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Ein Wort zum Hirnschutz",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Kennst Du die Telefonnummern Deiner Kindheitsfreunde noch auswendig? Jetzt versuch’s nochmal – mit den Handynummern Deiner zwei besten Freunde. Oder Deines Partners. 😬 Tja… Was Technologie uns abnehmen kann, verlernen wir. Oder erlernen es erst gar nicht. Wilde Aussichten, wenn man überlegt, was KI jetzt schon kann.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Wie geht man damit um? Aus meiner Sicht gibt’s 2 Ableitungen:",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "1) Für den Nachwuchs:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " Aufpassen, dass die Kinder kritisches, kreatives, eigenes Denken lernen. Ob das im heutigen Format der Schule/Uni noch möglich ist oder sein wird – fraglich. Umso wichtiger ist, früh herauszufinden, welche Themen die Kids begeistern, und das als Plattform nutzen. Das Ziel ist für mich klar. Die Lösung beschreibe ich so vage, weil ich es als 2-facher Dad derzeit leider auch noch nicht besser weiß.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "2) Für sich selbst:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " Aufpassen, dass man keine Arbeiten delegiert, welche die einzigartigen Stärken ausmachen. KI ist eine großartige Hilfe, um Arbeiten erledigen zu lassen, die Du sonst zeitaufwendig und freudlos und ggf. gar nicht erledigt bekämst. Die Dinge, die Dich auszeichnen und Dir Spaß machen, solltest Du nicht an die KI delegieren. Viele „schlaue Köpfe“, die ich kenne, schreiben z. B. nach wie vor noch jeden Text selber. Auch ich halte Schreiben für eines der zentralen „Denktrainings“, die das Oberstübchen am Laufen halten.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "5 wirklich krasse KI-Beispiele",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h2"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Wer noch zu uninspiriert ist, auf die Jagd nach eigenen KI-Wows zu gehen – hier ein wenig Inspiration aus der Welt da draußen. ",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 2,
+      "mode": "normal",
+      "style": "",
+      "text": "„Bitte liste mir 5 der krassesten Beispiele für Durchbrüche durch KI-Systeme aus Forschung und Wissenschaft auf und warum diese so krass sind“",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "1. KI knackt ein Millionen-Dollar-Problem",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h3"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Eine KI von OpenAI hat mit 10.000 gleichzeitig arbeitenden Agenten das Navier-Stokes-Problem gelöst. Es gehört zu den sieben schwersten Fragen der Mathematik, und sie hat dafür nur 88 Stunden gebraucht.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Warum krass:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " In 26 Jahren hatte nur ein Mensch eines dieser Probleme gelöst. Jetzt hat eine KI es in knapp vier Tagen geschafft.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "2. OpenAI löst (angeblich) Mathe-Rätsel am Fließband",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h3"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Im Oktober 2026 hat OpenAI hunderte Beweise veröffentlicht, die eine KI geschrieben hat. Mehrere davon betreffen Probleme, an denen Mathematiker seit Jahrzehnten scheitern.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Warum krass:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " Selbst wenn nur ein Teil davon stimmt, wäre das einer der größten Sprünge der Mathematik seit Langem. Und er hat nur wenige Wochen gedauert.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "3. Eine Landkarte für das ganze menschliche Erbgut",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h3"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Google DeepMind sagt vorher, was jede einzelne mögliche Änderung in unserer DNA bewirkt. Das sind rund 9 Milliarden Varianten.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Warum krass:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " Wofür Labore früher Monate gebraucht haben, können Forscher jetzt einfach nachschlagen.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "4. KI entschlüsselt die Sprache der Pottwale",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h3"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Forscher haben die Klicklaute von Pottwalen mit KI ausgewertet. Dabei haben sie eine Art Alphabet gefunden. Manche Laute verraten schon, dass die Wale gleich tief abtauchen.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Warum krass:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " Wir kommen zum ersten Mal einer echten Verständigung mit einer anderen Tierart nahe.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "5. KI löst 49 von 50 Profi-Aufgaben in Physik",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "heading",
+    "version": 1,
+    "tag": "h3"
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": "Die besten KI-Systeme haben 49 von 50 neuen Forschungsaufgaben gelöst. Die Aufgaben waren nirgends veröffentlicht. Ein Spitzenforscher braucht für jede etwa einen Arbeitstag, die KI oft weniger als 3 Dollar.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   },
+   {
+    "children": [
+     {
+      "detail": 0,
+      "format": 1,
+      "mode": "normal",
+      "style": "",
+      "text": "Warum krass:",
+      "type": "text",
+      "version": 1
+     },
+     {
+      "detail": 0,
+      "format": 0,
+      "mode": "normal",
+      "style": "",
+      "text": " Das sind keine Schulaufgaben, sondern echte Forschung auf dem Niveau von Experten.",
+      "type": "text",
+      "version": 1
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "paragraph",
+    "version": 1,
+    "textFormat": 0,
+    "textStyle": ""
+   }
+  ]
+ }
+}
