@@ -13,6 +13,7 @@ import * as migration_20261117_145937_home_about_newsletter_texts from './202611
 import * as migration_20261117_204000_about_three_ways from './20261117_204000_about_three_ways';
 import * as migration_20261118_143000_post_ai_is_coming from './20261118_143000_post_ai_is_coming';
 import * as migration_20261118_150000_update_ai_is_coming from './20261118_150000_update_ai_is_coming';
+import * as migration_20261118_160000_ai_is_coming_grok_model_image from './20261118_160000_ai_is_coming_grok_model_image';
 
 export const migrations = [
   {
@@ -89,5 +90,10 @@ export const migrations = [
     up: migration_20261118_150000_update_ai_is_coming.up,
     down: migration_20261118_150000_update_ai_is_coming.down,
     name: '20261118_150000_update_ai_is_coming',
+  },
+  {
+    up: migration_20261118_160000_ai_is_coming_grok_model_image.up,
+    down: migration_20261118_160000_ai_is_coming_grok_model_image.down,
+    name: '20261118_160000_ai_is_coming_grok_model_image',
   },
 ];
