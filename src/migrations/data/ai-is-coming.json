@@ -11,7 +11,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "93fd1f598d8719d8bb3bebb8",
+     "id": "2dac92cbdbe1a72b6250af3e",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-hero.jpg",
@@ -200,7 +200,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "2ea1adfacce705c4a736f2d0",
+     "id": "46f2fb0435f9d356dd0ecf84",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-preise-chatgpt.jpg",
@@ -214,7 +214,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "764b4666f67c92b44e9c2756",
+     "id": "b774861dac5fdc3b4911c6a7",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-preise-claude.jpg",
@@ -228,7 +228,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "ef020b1b08335707e8161ad3",
+     "id": "1902f956483be8631950ae36",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-preise-gemini.jpg",
@@ -302,7 +302,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "2b680107ee15b04d2727e255",
+     "id": "42a1921662f949d4ce8baf50",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-modell-chatgpt.png",
@@ -356,7 +356,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "204ed6049ed29ab31b6200ac",
+     "id": "f0990bccccf4bd68dbdd03ee",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-modell-claude.jpg",
@@ -410,7 +410,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "d9e7005d6700f60a765e4ecb",
+     "id": "d9ebb41f1f972b938126365b",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-modell-gemini.jpg",
@@ -768,7 +768,33 @@
       "type": "listitem",
       "version": 1,
       "value": 1
-     },
+     }
+    ],
+    "direction": null,
+    "format": "",
+    "indent": 0,
+    "type": "list",
+    "version": 1,
+    "listType": "bullet",
+    "start": 1,
+    "tag": "ul"
+   },
+   {
+    "type": "block",
+    "version": 2,
+    "format": "",
+    "fields": {
+     "id": "1796a9061d2b0978524c62dd",
+     "blockName": "",
+     "blockType": "legacyImage",
+     "src": "/images/blog/ai-is-coming-datenschutz-chatgpt.png",
+     "alt": "ChatGPT: Einstellungen, Datenkontrollen, Schalter Das Modell für alle verbessern ausgeschaltet",
+     "caption": "Bild: ChatGPT",
+     "format": "original"
+    }
+   },
+   {
+    "children": [
      {
       "children": [
        {
@@ -795,7 +821,7 @@
       "indent": 0,
       "type": "listitem",
       "version": 1,
-      "value": 2
+      "value": 1
      }
     ],
     "direction": null,
@@ -812,7 +838,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "d685a8723439c98d3b6098fc",
+     "id": "71b02ab99b44f6f04a9d8aec",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-datenschutz-claude.jpg",
@@ -865,7 +891,7 @@
          "newTab": true,
          "url": "https://myactivity.google.com/product/gemini"
         },
-        "id": "c78dc1cf19d03484478cb31a"
+        "id": "1512e7d47beab9ca09113682"
        },
        {
         "detail": 0,
@@ -899,7 +925,7 @@
     "version": 2,
     "format": "",
     "fields": {
-     "id": "e87060041112d51bf2422dbb",
+     "id": "58b19570a0fd287c13bcc888",
      "blockName": "",
      "blockType": "legacyImage",
      "src": "/images/blog/ai-is-coming-datenschutz-gemini.jpg",
