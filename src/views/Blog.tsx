@@ -7,27 +7,35 @@ import { Lines } from '@/components/Inline'
 import { PostContent } from '@/components/PostContent'
 import { BLOG, UI } from '@/content/site'
 import { formatDate, localize, other, type Lang } from '@/lib/i18n'
-import { getPost, getPosts, getTranslation, postLang, translatedIds } from '@/lib/posts'
+import { getPost, getPosts, getTranslation, postLang, previewImage, translatedIds } from '@/lib/posts'
 import type { Post } from '@/payload-types'
 
 const postHref = (post: Pick<Post, 'slug' | 'language'>) => localize(`/blog/${post.slug}`, postLang(post))
 
 function PostItem({ post, lang, badge }: { post: Post; lang: Lang; badge?: string }) {
   const href = postHref(post)
+  const image = previewImage(post)
   return (
-    <article className="post-item" lang={postLang(post)}>
-      <p className="post-meta">
-        {post.authorName || 'Martin Ferfers'} <span aria-hidden="true">*</span>{' '}
-        <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, lang)}</time>
-        {badge && <em className="post-badge">{badge}</em>}
-      </p>
-      <h2>
-        <Link href={href}>{post.title}</Link>
-      </h2>
-      {post.excerpt && <p className="post-excerpt">{post.excerpt}</p>}
-      <Link className="read-more" href={href}>
-        {UI[lang].readMore}
-      </Link>
+    <article className={image ? 'post-item has-thumb' : 'post-item'} lang={postLang(post)}>
+      {image && (
+        <Link className="post-thumb" href={href} tabIndex={-1} aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={image} alt="" loading="lazy" />
+        </Link>
+      )}
+      <div className="post-item-body">
+        <p className="post-meta">
+          <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, lang)}</time>
+          {badge && <em className="post-badge">{badge}</em>}
+        </p>
+        <h2>
+          <Link href={href}>{post.title}</Link>
+        </h2>
+        {post.excerpt && <p className="post-excerpt">{post.excerpt}</p>}
+        <Link className="read-more" href={href}>
+          {UI[lang].readMore}
+        </Link>
+      </div>
     </article>
   )
 }
@@ -102,7 +110,6 @@ export async function PostView({ lang, params }: { lang: Lang; params: Params })
     <article className="wrap page post">
       <header className="post-header">
         <p className="post-meta">
-          {post.authorName || 'Martin Ferfers'} <span aria-hidden="true">*</span>{' '}
           <time dateTime={post.publishedAt}>{formatDate(post.publishedAt, lang)}</time>
         </p>
         <h1>{post.title}</h1>

@@ -10,10 +10,30 @@ export async function getPosts(): Promise<Post[]> {
     where: { _status: { equals: 'published' } },
     sort: '-publishedAt',
     limit: 500,
-    depth: 0,
+    depth: 1, // populates the cover image (used as preview image in the list)
     overrideAccess: false,
   })
   return result.docs
+}
+
+/**
+ * Preview image of a post for the blog list: the cover image ("Titelbild") if set,
+ * otherwise the first image in the content. Posts without any image get none.
+ */
+export function previewImage(post: Post): string | null {
+  if (typeof post.cover === 'object' && post.cover?.url) return post.cover.url
+  const walk = (node: unknown): string | null => {
+    if (!node || typeof node !== 'object') return null
+    const n = node as { type?: string; fields?: { blockType?: string; src?: string }; value?: { url?: string }; children?: unknown[] }
+    if (n.type === 'block' && n.fields?.blockType === 'legacyImage' && n.fields.src) return n.fields.src
+    if (n.type === 'upload' && n.value && typeof n.value === 'object' && n.value.url) return n.value.url
+    for (const child of n.children ?? []) {
+      const found = walk(child)
+      if (found) return found
+    }
+    return null
+  }
+  return walk((post.content as { root?: unknown } | null | undefined)?.root)
 }
 
 export async function getPost(slug: string, draft = false): Promise<Post | null> {
